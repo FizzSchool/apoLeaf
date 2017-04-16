@@ -28,12 +28,13 @@ public class ApoPage {
 
     private String textColor;
 
-    public ApoPage(int imageID, String textColor, String backgroundText, String backgroundImage) {
+    public ApoPage( ArrayList<String> apoContents, int imageID, String textColor, String backgroundText, String backgroundImage) {
         int value = getTest("me"+ imageID);
         this.setImage(value);
         this.setBackgroundText(backgroundText);
         this.setTextColor(textColor);
         this.setBackgroundImage(backgroundImage);
+        this.setApoContents(apoContents);
     }
 
     public int getTest(String rs){
