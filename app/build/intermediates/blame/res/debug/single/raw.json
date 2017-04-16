@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\music_7orange.mp3",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\music_7orange.mp3"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\me3.jpg",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\me3.jpg"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\me4.jpg",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\me4.jpg"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\me2.jpg",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\me2.jpg"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\me.jpg",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\me.jpg"
+    }
+]

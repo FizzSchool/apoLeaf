@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out_swipe.xml",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\anim\\fade_out_swipe.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Fizz Buzz\\.android\\build-cache\\174f9b24cc1a00f572d244d4315ed15d6dc0e194\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Fizz Buzz\\.android\\build-cache\\174f9b24cc1a00f572d244d4315ed15d6dc0e194\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Fizz Buzz\\.android\\build-cache\\174f9b24cc1a00f572d244d4315ed15d6dc0e194\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in_swipe.xml",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\anim\\fade_in_swipe.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Fizz Buzz\\.android\\build-cache\\174f9b24cc1a00f572d244d4315ed15d6dc0e194\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Fizz Buzz\\.android\\build-cache\\174f9b24cc1a00f572d244d4315ed15d6dc0e194\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Fizz Buzz\\.android\\build-cache\\174f9b24cc1a00f572d244d4315ed15d6dc0e194\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Fizz Buzz\\.android\\build-cache\\174f9b24cc1a00f572d244d4315ed15d6dc0e194\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Fizz Buzz\\.android\\build-cache\\174f9b24cc1a00f572d244d4315ed15d6dc0e194\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Fizz Buzz\\.android\\build-cache\\174f9b24cc1a00f572d244d4315ed15d6dc0e194\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Fizz Buzz\\.android\\build-cache\\174f9b24cc1a00f572d244d4315ed15d6dc0e194\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    }
+]
