@@ -1,22 +1,38 @@
 [
     {
-        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\music_7orange.mp3",
-        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\music_7orange.mp3"
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\music4.mp3",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\music4.mp3"
     },
     {
-        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\me3.jpg",
-        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\me3.jpg"
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\me4.gif",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\me4.gif"
     },
     {
-        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\me4.jpg",
-        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\me4.jpg"
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\music1.mp3",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\music1.mp3"
     },
     {
-        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\me2.jpg",
-        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\me2.jpg"
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\me3.gif",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\me3.gif"
     },
     {
-        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\me.jpg",
-        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\me.jpg"
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\me1.gif",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\me1.gif"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\music2.mp3",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\music2.mp3"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\me2.gif",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\me2.gif"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\music0.mp3",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\music0.mp3"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\music3.mp3",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\music3.mp3"
     }
 ]

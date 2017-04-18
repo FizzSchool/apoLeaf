@@ -16,7 +16,7 @@ import java.util.ArrayList;
  */
 
 public class ApoPage {
-    private MediaPlayer mediaPlayer;
+    private int mediaPlayer;
 
     private ArrayList<String> apoContents;
 
@@ -29,7 +29,9 @@ public class ApoPage {
     private String textColor;
 
     public ApoPage( ArrayList<String> apoContents, int imageID, String textColor, String backgroundText, String backgroundImage) {
-        int value = getTest("me"+ imageID);
+        int value = getImgId("me"+ imageID);
+        int mValue = getMusicid("music"+ imageID);
+        this.setMediaPlayer(mValue);
         this.setImage(value);
         this.setBackgroundText(backgroundText);
         this.setTextColor(textColor);
@@ -37,7 +39,7 @@ public class ApoPage {
         this.setApoContents(apoContents);
     }
 
-    public int getTest(String rs){
+    public int getImgId(String rs){
         try {
             return R.mipmap.class.getField(rs).getInt(null);
         } catch (IllegalAccessException e) {
@@ -48,11 +50,22 @@ public class ApoPage {
         return -1;
     }
 
-    public MediaPlayer getMediaPlayer() {
+    public int getMusicid(String ms){
+        try {
+            return R.raw.class.getField(ms).getInt(null);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        }
+        return -1;
+    }
+
+    public int getMediaPlayer() {
         return mediaPlayer;
     }
 
-    public void setMediaPlayer(MediaPlayer mediaPlayer) {
+    public void setMediaPlayer(int mediaPlayer) {
         this.mediaPlayer = mediaPlayer;
     }
 

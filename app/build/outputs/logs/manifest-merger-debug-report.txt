@@ -71,6 +71,7 @@ MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\Fizz 
 MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\Fizz Buzz\.android\build-cache\183c36ba372ea4a294bb6e1e3b53d7fd66b30219\output\AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:support-compat:25.0.1] C:\Users\Fizz Buzz\.android\build-cache\ce3ab525a38c48dff28e88dcbe7a376857360908\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Fizz Buzz\.android\build-cache\0b2fb6027f35197b2b9a46daf65cef7354e4a4de\output\AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.6] C:\Users\Fizz Buzz\.android\build-cache\2f404a29812785d1c4acd4f4f1ef5afa76011e0e\output\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.0.1] C:\Users\Fizz Buzz\.android\build-cache\174f9b24cc1a00f572d244d4315ed15d6dc0e194\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

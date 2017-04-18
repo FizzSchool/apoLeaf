@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Fizz Buzz\\.android\\build-cache\\174f9b24cc1a00f572d244d4315ed15d6dc0e194\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out_right_swipe.xml",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\anim\\fade_out_right_swipe.xml"
+    },
+    {
         "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Users\\Fizz Buzz\\.android\\build-cache\\174f9b24cc1a00f572d244d4315ed15d6dc0e194\\output\\res\\anim\\abc_slide_in_top.xml"
     },
@@ -30,6 +34,10 @@
     {
         "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in_left_swipe.xml",
         "source": "D:\\LeafApo\\app\\src\\main\\res\\anim\\fade_in_left_swipe.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in_right_swipe.xml",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\anim\\fade_in_right_swipe.xml"
     },
     {
         "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",

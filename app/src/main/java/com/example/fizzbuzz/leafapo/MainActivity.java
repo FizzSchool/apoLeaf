@@ -13,7 +13,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -22,6 +21,8 @@ import android.widget.Toast;
 import com.example.fizzbuzz.leafapo.com.content.ApoPage;
 
 import java.util.ArrayList;
+
+import pl.droidsonroids.gif.GifImageView;
 
 public class MainActivity extends AppCompatActivity
         implements GestureDetector.OnDoubleTapListener, GestureDetector.OnGestureListener {
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity
 
     // image view defination
 
-    private ImageView imageView;
+    private GifImageView gifImageView;
     private TextView textView;
     private LinearLayout textLayout;
     private RelativeLayout imgLayout;
@@ -46,12 +47,15 @@ public class MainActivity extends AppCompatActivity
 
     //
     private Handler handler;
+    private Handler musicHandler;
+    // music player
+    private MediaPlayer mediaPlayer1;
+    private MediaPlayer mediaPlayer2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         // set mDetector
         mDetector = new GestureDetectorCompat(this, this);
@@ -67,13 +71,13 @@ public class MainActivity extends AppCompatActivity
         typeface = Typeface.createFromAsset(getAssets(), "fonts/font.ttf");
         textView.setTypeface(typeface);
 
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.music_7orange);
-        mediaPlayer.seekTo(30000);
-
-        mediaPlayer.start();
+        mediaPlayer1 = MediaPlayer.create(this, R.raw.music0);
+        mediaPlayer1.seekTo(30000);
+        fadeIn( 2000);
+        //mediaPlayer.start();
 
         // set
-        this.imageView = (ImageView) findViewById(R.id.apoImage);
+        this.gifImageView = (GifImageView) findViewById(R.id.apoImage);
         this.textLayout = (LinearLayout) findViewById(R.id.textLayout);
         this.imgLayout = (RelativeLayout) findViewById(R.id.imgLayout);
         textLayout.setBackgroundColor(Color.parseColor(apoPages.get(0).getBackgroundText()));
@@ -108,7 +112,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onDown(MotionEvent motionEvent) {
 
-       // Toast.makeText(getApplicationContext(), "On down", 200).show();
+        // Toast.makeText(getApplicationContext(), "On down", 200).show();
         return false;
     }
 
@@ -163,12 +167,26 @@ public class MainActivity extends AppCompatActivity
      * swipe left or right event change
      */
     public void onSwipe() {
+        if(this.mediaPlayer1 != null){
+            fadeOut( 2000);
+        }
+        //this.mediaPlayer2 = MediaPlayer.create(this, )
+        //fadeIn(this.);
         if ( this.handler != null ){
             this.handler.removeCallbacksAndMessages(null);
         }
         // get animation
-        Animation animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.fade_out_left_swipe);
+        // detect left or right animation
+
+        Animation animation;
+        if( this.swipeDirection ==  false){
+            animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.fade_out_left_swipe);
+        } else {
+            animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.fade_out_right_swipe);
+        }
+
         Animation fadeOut = AnimationUtils.loadAnimation(MainActivity.this, R.anim.fade_out);
+
         Animation.AnimationListener animationListener = new Animation.AnimationListener() {
             private Animation fadeInSwipe = AnimationUtils.loadAnimation(MainActivity.this, R.anim.fade_in_left_swipe);
             private Animation fadeIn = AnimationUtils.loadAnimation(MainActivity.this, R.anim.fade_in);
@@ -181,8 +199,9 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onAnimationEnd(Animation animation) {
                 this.switchPage();
+                this.checkDirectionAnim();
                 this.replace();
-                MainActivity.this.textView.setVisibility(View.VISIBLE);
+                //MainActivity.this.textView.setVisibility(View.VISIBLE);
 
                 MainActivity.this.textLayout.setVisibility(View.VISIBLE);
                 MainActivity.this.textLayout.setPadding(0, 50, 0, 0);
@@ -248,22 +267,37 @@ public class MainActivity extends AppCompatActivity
              * show image
              */
             public void imageDisplay(){
-                MainActivity.this.imageView.startAnimation(fadeInSwipe);
+                MainActivity.this.gifImageView.startAnimation(fadeInSwipe);
             }
 
             public void replace(){
+                if (MainActivity.this.musicHandler != null){
+                    MainActivity.this.mediaPlayer1.stop();
+                    MainActivity.this.musicHandler.removeCallbacksAndMessages(null);
+                    MainActivity.this.mediaPlayer1 = null;
+                }
 
+                MainActivity.this.mediaPlayer1 = MediaPlayer.create(MainActivity.this, MainActivity.this.apoPages.get(MainActivity.this.currentPage).getMediaPlayer());
+                MainActivity.this.fadeIn(2000);
                 // replace background for text content
                 MainActivity.this.textLayout.setBackgroundColor(Color.parseColor(MainActivity.this.apoPages.get(MainActivity.this.currentPage).getBackgroundText()));
                 // relplace background for image content
                 MainActivity.this.imgLayout.setBackgroundColor(Color.parseColor(MainActivity.this.apoPages.get(MainActivity.this.currentPage).getBackgroundImage()));
                 // replace text color
-                MainActivity.this.textView.setTextColor(Color.parseColor(MainActivity.this.apoPages.get(MainActivity.this.currentPage).getTextColor()));
+                //MainActivity.this.textView.setTextColor(Color.parseColor(MainActivity.this.apoPages.get(MainActivity.this.currentPage).getTextColor()));
                 // replace text
 
                 // replace image
                 int imageId = MainActivity.this.apoPages.get(MainActivity.this.currentPage).getImage();
-                MainActivity.this.imageView.setImageResource(imageId);
+                MainActivity.this.gifImageView.setImageResource(imageId);
+            }
+
+            public void checkDirectionAnim(){
+                if(MainActivity.this.swipeDirection == false) {
+                    this.fadeInSwipe = AnimationUtils.loadAnimation(MainActivity.this, R.anim.fade_in_left_swipe);
+                } else {
+                    this.fadeInSwipe = AnimationUtils.loadAnimation(MainActivity.this, R.anim.fade_in_right_swipe);
+                }
             }
 
             public void switchPage(){
@@ -273,26 +307,117 @@ public class MainActivity extends AppCompatActivity
                     if (MainActivity.this.currentPage == 5) {
                         MainActivity.this.currentPage = 0;
                     }
-                } else {
+                } else if(MainActivity.this.swipeDirection == true){
                     MainActivity.this.currentPage--;
 
                     if (MainActivity.this.currentPage == -1) {
                         MainActivity.this.currentPage = 4;
                     }
+
                 }
+
+                Toast.makeText(MainActivity.this.getApplicationContext(), ""+MainActivity.this.currentPage , 200).show();
             }
         };
 
-        this.textView.setVisibility(View.VISIBLE);
-        this.imageView.setVisibility(View.VISIBLE);
+        //this.textView.setVisibility(View.VISIBLE);
+        this.gifImageView.setVisibility(View.VISIBLE);
 
         animation.setAnimationListener(animationListener);
         fadeOut.setAnimationListener(animationListener);
 
-        this.textView.startAnimation(animation);
-        this.imageView.startAnimation(animation);
+        //this.textView.startAnimation(animation);
+        this.gifImageView.startAnimation(animation);
 
         this.imgLayout.startAnimation(fadeOut);
         this.textLayout.startAnimation(fadeOut);
     }
+
+    /*private static void crossFade() {
+        fadeOut(currentPlayer, 2000);
+        fadeIn(auxPlayer, 2000);
+        currentPlayer = auxPlayer;
+        auxPlayer = null;
+    }*/
+
+    public void fadeOut(int duration) {
+
+        final float deviceVolume = 1;
+        musicHandler = new Handler();
+        class MusicFadeOut implements Runnable{
+
+            private float time;
+            private float duration;
+            private float volume = 0.0f;
+            private Handler h;
+
+            MusicFadeOut(Handler handler, int duration){
+                h = handler;
+                time = duration;
+                this.duration = duration;
+            }
+            @Override
+            public void run() {
+                if (!MainActivity.this.mediaPlayer1.isPlaying())
+                    MainActivity.this.mediaPlayer1.start();
+                // can call h again after work!
+                time -= 100;
+                volume = (deviceVolume * time) / this.duration;
+                MainActivity.this.mediaPlayer1.setVolume(volume, volume);
+                if (time > 0)
+                    h.postDelayed(this, 100);
+                else {
+                    MainActivity.this.mediaPlayer1.stop();
+                    MainActivity.this.mediaPlayer1.release();
+                    MainActivity.this.mediaPlayer1 = null;
+                    h.removeCallbacksAndMessages(null);
+                }
+
+            }
+        }
+
+        musicHandler.postDelayed(new MusicFadeOut(musicHandler, duration), 100); // 1 second delay (takes millis)
+
+
+    }
+
+    public  void fadeIn( int duration) {
+        final float deviceVolume = 1;
+        musicHandler = new Handler();
+
+        class FadeInMusic implements Runnable {
+            private float time = 0.0f;
+            private float volume = 0.0f;
+            private Handler h;
+            private float duration;
+            FadeInMusic(Handler handler, float duration){
+                h = handler;
+                this.duration = duration;
+            }
+            @Override
+            public void run() {
+                if (!MainActivity.this.mediaPlayer1.isPlaying())
+                    MainActivity.this.mediaPlayer1.start();
+                // can call h again after work!
+                time += 100;
+                volume = (deviceVolume * time) / duration;
+                MainActivity.this.mediaPlayer1.setVolume(volume, volume);
+                if (time < duration)
+                    h.postDelayed(this, 100);
+
+                if (time == duration){
+                    h.removeCallbacksAndMessages(null);
+                }
+            }
+        }
+
+        musicHandler.postDelayed(new FadeInMusic(musicHandler, duration), 100); // 1 second delay (takes millis)
+
+    }
+    /*public static float getDeviceVolume() {
+        int volumeLevel = AudioManager.S.getStreamVolume(AudioManager.STREAM_MUSIC);
+        int maxVolume = audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
+
+        return (float) volumeLevel / maxVolume;
+    }*/
 }

@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
 
-                android:layout_weight="65"
+                android:layout_weight="50"
                 android:orientation="vertical">
 
                 <TextView
@@ -45,7 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
 
-                android:layout_weight="31"
+                android:layout_weight="46"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -56,13 +56,15 @@
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
-                    <ImageView
+                    <pl.droidsonroids.gif.GifImageView
                         android:id="@+id/apoImage"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:adjustViewBounds="true"
-                        app:srcCompat="@mipmap/me0" />
+                        android:background="@android:color/black"
+                        android:cropToPadding="false"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/me3" />
                 </LinearLayout>
 
             </RelativeLayout>
