@@ -1,18 +1,31 @@
 package com.example.fizzbuzz.leafapo;
 
+import android.app.SearchManager;
+import android.content.Context;
 import android.graphics.Color;
+import android.graphics.Outline;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.os.Handler;
 import android.support.v4.view.GestureDetectorCompat;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.SearchView;
+import android.support.v7.widget.Toolbar;
 import android.view.GestureDetector;
+import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewOutlineProvider;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -57,6 +70,18 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        // set font
+
+        textView = (TextView) findViewById(R.id.textContent);
+        typeface = Typeface.createFromAsset(getAssets(), "fonts/font.ttf");
+
+
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.search_edit_frame);
+        setSupportActionBar(myToolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        this.setSearchView();
+
         // set mDetector
         mDetector = new GestureDetectorCompat(this, this);
         mDetector.setOnDoubleTapListener(this);
@@ -66,9 +91,6 @@ public class MainActivity extends AppCompatActivity
         ApoData apoData = new ApoData();
         apoPages = apoData.getApoPages();
 
-        // set font
-        textView = (TextView) findViewById(R.id.textContent);
-        typeface = Typeface.createFromAsset(getAssets(), "fonts/font.ttf");
         textView.setTypeface(typeface);
 
         mediaPlayer1 = MediaPlayer.create(this, R.raw.music0);
@@ -84,6 +106,70 @@ public class MainActivity extends AppCompatActivity
         imgLayout.setBackgroundColor(Color.parseColor(apoPages.get(0).getBackgroundImage()));
         textView.setTextColor(Color.parseColor(apoPages.get(0).getTextColor()));
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.go, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    public void setSearchView(){
+
+        SearchView searchView = (SearchView) findViewById(R.id.action_search2);
+        searchView.setMaxWidth(500);
+
+        EditText editText = (EditText) searchView.findViewById(android.support.v7.appcompat.R.id.search_src_text);
+        editText.setHintTextColor(Color.parseColor("#1B1B1B"));
+        editText.setTypeface(this.typeface);
+        editText.setTextSize(14);
+
+        View searchplate = (View) searchView.findViewById(android.support.v7.appcompat.R.id.search_edit_frame);
+        searchplate.setBackgroundColor(Color.parseColor("#ffffff"));
+
+        //searchplate.setClipToOutline(false);
+        searchView.setIconifiedByDefault(false);
+        searchView.clearFocus();
+
+        searchplate.setOutlineProvider(new ViewOutlineProvider() {
+            @Override
+            public void getOutline(View view, Outline outline) {
+                outline.setRoundRect(0, 0, view.getWidth(), view.getHeight(), 8);
+            }
+        });
+
+        LinearLayout.LayoutParams mg = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+        mg.setMargins(0, 0, 10, 10);
+        searchplate.setLayoutParams(mg);
+        searchplate.setClipToOutline(true);
+
+        searchplate.setElevation(10);
+
+
+        ImageView searchIView = (ImageView) searchView.findViewById(android.support.v7.appcompat.R.id.search_mag_icon);
+        searchIView.setImageDrawable(getResources().getDrawable(R.drawable.ic_search));
+        searchIView.setScaleX((float) 0.7);
+        searchIView.setScaleY((float) 0.7);
+
+    }
+
+
+
+    /*@Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.group_item1) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }*/
 
     @Override
     public boolean onTouchEvent(MotionEvent event){

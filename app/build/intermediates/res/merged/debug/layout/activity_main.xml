@@ -4,13 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context="com.example.fizzbuzz.leafapo.MainActivity">
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:background="#fff">
+
+        <include layout="@layout/toolbar"></include>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -18,7 +22,10 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
+
+            android:layout_marginTop="50dp"
             android:orientation="vertical"
+            android:paddingTop="0dp"
             android:weightSum="100">
 
             <LinearLayout
@@ -35,9 +42,9 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
                     android:padding="20dp"
-                    android:text="Xin chào, là tớ, Fizz. Cậu cho tớ nói được chứ???"
+                    android:text="aaabbbccc"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textSize="20sp" />
+                    android:textSize="11sp" />
             </LinearLayout>
 
             <RelativeLayout

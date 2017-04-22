@@ -154,5 +154,9 @@
     {
         "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
         "source": "C:\\Users\\Fizz Buzz\\.android\\build-cache\\174f9b24cc1a00f572d244d4315ed15d6dc0e194\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_search.xml",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\drawable\\background_search.xml"
     }
 ]
