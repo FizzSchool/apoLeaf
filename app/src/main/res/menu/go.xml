@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--Last note icon -->
+    <item
+        android:id="@+id/action_note"
+        android:icon="@drawable/ic_textsms_black_24px"
+        android:title="Note"
+        app:actionLayout="@layout/custom_item"
+        app:showAsAction="always" />
 
     <!-- "Mark Favorite", should appear as action button if possible -->
     <item
         android:id="@+id/action_favorite"
         android:icon="@drawable/ic_playlist_play_black_36px"
-        android:title="Menu"
+        android:title="List"
+        app:actionLayout="@layout/custom_item_2"
         app:showAsAction="always" />
 
     <!-- Settings, should always be in the overflow -->
-    <item android:id="@+id/action_settings"
-        android:icon="@drawable/view_list"
+    <item android:id="@+id/action_settings_overr"
+        android:icon="@drawable/ic_settings_black_24px"
         android:title="Settings"
-        app:showAsAction="never"/>
+        app:showAsAction="always"/>
 
 </menu>

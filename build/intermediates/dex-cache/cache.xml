@@ -11,13 +11,13 @@
         <dex dex="D:\LeafApo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_427d086b92e98d80cdd76667f83ea907d2986b0f\classes.dex" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="C:\Users\Fizz Buzz\.android\build-cache\2f404a29812785d1c4acd4f4f1ef5afa76011e0e\output\jars\classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="3b86e72dbf272c69b3acd5e552066d9f521e9616">
-        <dex dex="D:\LeafApo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2851359ee739823533b7318ebef27c03f7ada080\classes.dex" />
+        <dex dex="D:\LeafApo\app\build\intermediates\pre-dexed\debug\classes_2851359ee739823533b7318ebef27c03f7ada080.jar" />
     </item>
     <item
         is-multidex="true"
@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4c1decb32a01c6ece8e46bd1404701cc6c0225f3">
+        sha1="b179cc41ca0d637213fa91331087d20115534596">
         <dex dex="D:\LeafApo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d2bf38572e769ab1e73f75899f9e99d27b1537e5\classes.dex" />
     </item>
 

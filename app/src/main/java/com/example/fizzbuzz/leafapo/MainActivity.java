@@ -2,9 +2,12 @@ package com.example.fizzbuzz.leafapo;
 
 import android.app.SearchManager;
 import android.content.Context;
+import android.content.Intent;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.Outline;
 import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
 import android.os.Handler;
 import android.support.v4.view.GestureDetectorCompat;
@@ -13,6 +16,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
+import android.util.DisplayMetrics;
 import android.view.GestureDetector;
 import android.view.Gravity;
 import android.view.Menu;
@@ -22,6 +26,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewOutlineProvider;
+import android.view.ViewTreeObserver;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.EditText;
@@ -31,20 +36,20 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.fizzbuzz.leafapo.com.base.BaseActivity;
 import com.example.fizzbuzz.leafapo.com.content.ApoPage;
 
 import java.util.ArrayList;
 
 import pl.droidsonroids.gif.GifImageView;
 
-public class MainActivity extends AppCompatActivity
+public class MainActivity extends BaseActivity
         implements GestureDetector.OnDoubleTapListener, GestureDetector.OnGestureListener {
 
     private GestureDetectorCompat mDetector;
     private static final int SWIPE_MIN_DISTANCE = 120;
     private static final int SWIPE_MAX_OFF_PATH = 250;
     private static final int SWIPE_THRESHOLD_VELOCITY = 200;
-    private ArrayList<ApoPage> apoPages;
     private int currentPage = 0;
 
     // image view defination
@@ -55,14 +60,10 @@ public class MainActivity extends AppCompatActivity
     private RelativeLayout imgLayout;
     private boolean swipeDirection;
 
-    // type face
-    private Typeface typeface;
 
     //
     private Handler handler;
-    private Handler musicHandler;
     // music player
-    private MediaPlayer mediaPlayer1;
     private MediaPlayer mediaPlayer2;
 
     @Override
@@ -70,106 +71,39 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        init();
         // set font
-
         textView = (TextView) findViewById(R.id.textContent);
-        typeface = Typeface.createFromAsset(getAssets(), "fonts/font.ttf");
-
-
-        Toolbar myToolbar = (Toolbar) findViewById(R.id.search_edit_frame);
-        setSupportActionBar(myToolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-        this.setSearchView();
 
         // set mDetector
         mDetector = new GestureDetectorCompat(this, this);
         mDetector.setOnDoubleTapListener(this);
         mDetector.setIsLongpressEnabled(true);
 
-        // set Data
-        ApoData apoData = new ApoData();
-        apoPages = apoData.getApoPages();
-
         textView.setTypeface(typeface);
-
-        mediaPlayer1 = MediaPlayer.create(this, R.raw.music0);
-        mediaPlayer1.seekTo(30000);
-        fadeIn( 2000);
-        //mediaPlayer.start();
 
         // set
         this.gifImageView = (GifImageView) findViewById(R.id.apoImage);
+
         this.textLayout = (LinearLayout) findViewById(R.id.textLayout);
         this.imgLayout = (RelativeLayout) findViewById(R.id.imgLayout);
         textLayout.setBackgroundColor(Color.parseColor(apoPages.get(0).getBackgroundText()));
         imgLayout.setBackgroundColor(Color.parseColor(apoPages.get(0).getBackgroundImage()));
         textView.setTextColor(Color.parseColor(apoPages.get(0).getTextColor()));
-    }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-
-        MenuInflater menuInflater = getMenuInflater();
-        menuInflater.inflate(R.menu.go, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    public void setSearchView(){
-
-        SearchView searchView = (SearchView) findViewById(R.id.action_search2);
-        searchView.setMaxWidth(500);
-
-        EditText editText = (EditText) searchView.findViewById(android.support.v7.appcompat.R.id.search_src_text);
-        editText.setHintTextColor(Color.parseColor("#1B1B1B"));
-        editText.setTypeface(this.typeface);
-        editText.setTextSize(14);
-
-        View searchplate = (View) searchView.findViewById(android.support.v7.appcompat.R.id.search_edit_frame);
-        searchplate.setBackgroundColor(Color.parseColor("#ffffff"));
-
-        //searchplate.setClipToOutline(false);
-        searchView.setIconifiedByDefault(false);
-        searchView.clearFocus();
-
-        searchplate.setOutlineProvider(new ViewOutlineProvider() {
-            @Override
-            public void getOutline(View view, Outline outline) {
-                outline.setRoundRect(0, 0, view.getWidth(), view.getHeight(), 8);
-            }
-        });
-
-        LinearLayout.LayoutParams mg = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
-        mg.setMargins(0, 0, 10, 10);
-        searchplate.setLayoutParams(mg);
-        searchplate.setClipToOutline(true);
-
-        searchplate.setElevation(10);
-
-
-        ImageView searchIView = (ImageView) searchView.findViewById(android.support.v7.appcompat.R.id.search_mag_icon);
-        searchIView.setImageDrawable(getResources().getDrawable(R.drawable.ic_search));
-        searchIView.setScaleX((float) 0.7);
-        searchIView.setScaleY((float) 0.7);
-
-    }
-
-
-
-    /*@Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.group_item1) {
-            return true;
+        Intent intent = getIntent();
+        int jump = intent.getIntExtra("jump", -999);
+        if(jump != -999){
+            this.swipeDirection = false;
+            this.currentPage = jump -1;
+            this.onStartNewPage();
+        } else {
+            mediaPlayer1 = MediaPlayer.create(this, R.raw.music0);
+            mediaPlayer1.seekTo(30000);
+            fadeIn( 2000);
         }
+    }
 
-        return super.onOptionsItemSelected(item);
-    }*/
 
     @Override
     public boolean onTouchEvent(MotionEvent event){
@@ -240,9 +174,7 @@ public class MainActivity extends AppCompatActivity
                     && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
                 this.swipeDirection = true;
             }
-
-
-            onSwipe();
+            onStartNewPage();
         } catch (Exception e) {
 
         }
@@ -252,18 +184,19 @@ public class MainActivity extends AppCompatActivity
     /**
      * swipe left or right event change
      */
-    public void onSwipe() {
+    public void onStartNewPage() {
         if(this.mediaPlayer1 != null){
-            fadeOut( 2000);
+            fadeOut(2000);
         }
-        //this.mediaPlayer2 = MediaPlayer.create(this, )
-        //fadeIn(this.);
         if ( this.handler != null ){
             this.handler.removeCallbacksAndMessages(null);
         }
         // get animation
         // detect left or right animation
+        this.change();
+    }
 
+    public void change(){
         Animation animation;
         if( this.swipeDirection ==  false){
             animation = AnimationUtils.loadAnimation(MainActivity.this, R.anim.fade_out_left_swipe);
@@ -399,7 +332,6 @@ public class MainActivity extends AppCompatActivity
                     if (MainActivity.this.currentPage == -1) {
                         MainActivity.this.currentPage = 4;
                     }
-
                 }
 
                 Toast.makeText(MainActivity.this.getApplicationContext(), ""+MainActivity.this.currentPage , 200).show();

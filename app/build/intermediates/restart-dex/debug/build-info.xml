@@ -6,22 +6,22 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1492858107445"
+    timestamp="1492959396228"
     token="3354449322417512973"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1678" />
+        duration="526" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="75" />
+        duration="37" />
     <task
         name="verifier"
-        duration="58" />
+        duration="3" />
 
     <artifact
         location="D:\LeafApo\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -32,8 +32,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1492842669654"
+        timestamp="1492947263190"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\LeafApo\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
         <artifact
             location="D:\LeafApo\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
@@ -62,9 +65,6 @@
             location="D:\LeafApo\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="D:\LeafApo\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
             location="D:\LeafApo\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
@@ -73,7 +73,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1492857391145"
+        timestamp="1492957015739"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\LeafApo\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -81,7 +81,15 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1492857908967"
+        timestamp="1492957352234"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\LeafApo\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1492959061045"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\LeafApo\app\build\outputs\apk\app-debug.apk"
@@ -89,7 +97,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1492858107445"
+        timestamp="1492959396228"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\LeafApo\app\build\intermediates\split-apk\debug\slices\slice_5.apk"

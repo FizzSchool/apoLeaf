@@ -26,6 +26,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.fizzbuzz.leafapo.MainActivity" />
+        <activity android:name="com.example.fizzbuzz.leafapo.ScrollViewActivity" />
+        <activity android:name="com.example.fizzbuzz.leafapo.com.base.BaseActivity" />
     </application>
 
 </manifest>
