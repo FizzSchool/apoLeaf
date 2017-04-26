@@ -28,7 +28,11 @@ public class ApoPage {
 
     private String textColor;
 
-    public ApoPage( ArrayList<String> apoContents, int imageID, String textColor, String backgroundText, String backgroundImage) {
+    private String musicName;
+
+    private String note;
+
+    public ApoPage( ArrayList<String> apoContents, String musicName, String note, int imageID, String textColor, String backgroundText, String backgroundImage) {
         int value = getImgId("me"+ imageID);
         int mValue = getMusicid("music"+ imageID);
         this.setMediaPlayer(mValue);
@@ -37,6 +41,8 @@ public class ApoPage {
         this.setTextColor(textColor);
         this.setBackgroundImage(backgroundImage);
         this.setApoContents(apoContents);
+        this.setNote(note);
+        this.setMusicName(musicName);
     }
 
     public int getImgId(String rs){
@@ -107,5 +113,21 @@ public class ApoPage {
 
     public void setTextColor(String textColor) {
         this.textColor = textColor;
+    }
+
+    public String getMusicName() {
+        return musicName;
+    }
+
+    public void setMusicName(String musicName) {
+        this.musicName = musicName;
+    }
+
+    public String getNote() {
+        return note;
+    }
+
+    public void setNote(String note) {
+        this.note = note;
     }
 }

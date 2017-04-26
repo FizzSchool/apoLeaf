@@ -73,7 +73,7 @@ MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\Fizz Buzz\.androi
 MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\Fizz Buzz\.android\build-cache\780b5dd060086dbd245a1917ccd9c51abb9eb6d0\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\Fizz Buzz\.android\build-cache\183c36ba372ea4a294bb6e1e3b53d7fd66b30219\output\AndroidManifest.xml:21:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta3] C:\Users\Fizz Buzz\.android\build-cache\0b2fb6027f35197b2b9a46daf65cef7354e4a4de\output\AndroidManifest.xml:5:5-7:41
-MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.6] C:\Users\Fizz Buzz\.android\build-cache\2f404a29812785d1c4acd4f4f1ef5afa76011e0e\output\AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.7] C:\Users\Fizz Buzz\.android\build-cache\4552175de830d0c33652637c0072a74fc96fd298\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:25.0.1] C:\Users\Fizz Buzz\.android\build-cache\f497ff61be316a191fde4debb53ad2b3f62af7a3\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\Fizz Buzz\.android\build-cache\9a62b06298173353ffabcad7ab6f283f6b565136\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\Fizz Buzz\.android\build-cache\7a9597359f4369b4158632ce9c330e336cedba94\output\AndroidManifest.xml:21:5-23:63

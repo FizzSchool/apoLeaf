@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\Fizz Buzz\.android\build-cache\4552175de830d0c33652637c0072a74fc96fd298\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d9f58e509a3ff5b601c11ab5ec588c96f9eb82b2">
+        <dex dex="D:\LeafApo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5b8211b9ec91c1995075954bcad5ed08d39b2908\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\LeafApo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"

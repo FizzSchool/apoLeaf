@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context="com.example.fizzbuzz.leafapo.ScrollViewActivity">
 
     <RelativeLayout
-        android:layout_width="368dp"
-        android:layout_height="551dp"
-        android:background="#ffffff"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
 
         <include layout="@layout/toolbar"></include>
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
             android:background="#ffffff"
             android:fadeScrollbars="false"
             android:scrollbarAlwaysDrawHorizontalTrack="true"
@@ -31,8 +31,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#ffffff"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingBottom="50dp">
 
+                <TextView
+                    android:id="@+id/twentySixDay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="30dp"
+                    android:text="26 DAYS - 26 SONGS"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_marginTop="10dp"
+                    android:text="26 ngày là con số mà tớ ép buộc, số ngày chia cắt, số ngày thương nhớ, số ngày dặn tớ không quên ngày sinh của cậu. Là quãng thời gian tớ bất lực, vừa viết ứng dụng này, vừa tìm dữ liệu, và khóc nữa. "
+                    android:textSize="11sp" />
             </LinearLayout>
         </ScrollView>
 
