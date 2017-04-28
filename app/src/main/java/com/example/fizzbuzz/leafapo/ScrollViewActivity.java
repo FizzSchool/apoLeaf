@@ -76,7 +76,7 @@ public class ScrollViewActivity extends BaseActivity {
                 @Override
                 public void onClick(View view) {
                     Intent intent = new Intent(ScrollViewActivity.this, MainActivity.class);
-                    intent.putExtra("jump", jump);
+                    intent.putExtra("jump", jump + 1);
                     startActivity(intent);
                 }
             });

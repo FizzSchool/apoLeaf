@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
+import android.text.InputType;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -24,9 +25,12 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.example.fizzbuzz.leafapo.ApoData;
+import com.example.fizzbuzz.leafapo.MainActivity;
+import com.example.fizzbuzz.leafapo.NoteActivity;
 import com.example.fizzbuzz.leafapo.R;
 import com.example.fizzbuzz.leafapo.ScrollViewActivity;
 import com.example.fizzbuzz.leafapo.com.content.ApoPage;
+import com.example.fizzbuzz.leafapo.com.helper.Check;
 
 import java.util.ArrayList;
 
@@ -52,7 +56,6 @@ public class BaseActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.go, menu);
 
@@ -66,7 +69,15 @@ public class BaseActivity extends AppCompatActivity {
             }
         });
 
-        SearchView searchView = (SearchView) findViewById(R.id.action_search2);
+        menu.findItem(R.id.action_note).getActionView().setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MenuItem itemChoose = BaseActivity.this.menuOpt.findItem(R.id.action_note);
+                BaseActivity.this.onOptionsItemSelected(itemChoose);
+            }
+        });
+
+        SearchView searchView = (SearchView) findViewById(R.id.action_search);
         searchView.clearFocus();
 
         /*LinearLayout.LayoutParams mg = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
@@ -97,11 +108,30 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     public void setSearchView(){
-        SearchView searchView = (SearchView) findViewById(R.id.action_search2);
+        SearchView searchView = (SearchView) findViewById(R.id.action_search);
         searchView.setMaxWidth(500);
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                Toast.makeText(getApplicationContext(), query, 5000).show();
+                Intent intent = new Intent(getBaseContext(), MainActivity.class);
+                if (Check.checkQuery(query, BaseActivity.this.apoPages.size()) == true) {
+                    intent.putExtra("jump", Integer.parseInt(query));
+                    startActivity(intent);
+                }
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                return false;
+            }
+        });
+        searchView.setInputType(InputType.TYPE_CLASS_NUMBER);
 
         EditText editText = (EditText) searchView.findViewById(android.support.v7.appcompat.R.id.search_src_text);
         editText.setHintTextColor(Color.parseColor("#1B1B1B"));
+        editText.setHint("Jump...");
         editText.setTypeface(this.typeface);
         editText.setTextSize(14);
 
@@ -135,12 +165,16 @@ public class BaseActivity extends AppCompatActivity {
         searchView.clearFocus();
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.action_favorite:
                 this.showScrollView();
+                return true;
+            case R.id.action_note:
+                this.showNote();
                 return true;
             case R.id.action_settings_overr:
                 return true;
@@ -152,6 +186,13 @@ public class BaseActivity extends AppCompatActivity {
     public void showScrollView(){
         Toast.makeText(this, "Test", 200).show();
         Intent intent = new Intent(this, ScrollViewActivity.class);
+        stopAction();
+        startActivity(intent);
+    }
+
+    public void showNote(){
+        Toast.makeText(this, "Test", 200).show();
+        Intent intent = new Intent(this, NoteActivity.class);
         stopAction();
         startActivity(intent);
     }

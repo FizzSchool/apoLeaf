@@ -24,6 +24,10 @@
         "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\music2.mp3"
     },
     {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\logo2.png",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\logo2.png"
+    },
+    {
         "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\me2.gif",
         "source": "D:\\LeafApo\\app\\src\\main\\res\\raw\\me2.gif"
     },

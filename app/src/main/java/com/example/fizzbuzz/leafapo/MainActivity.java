@@ -95,7 +95,7 @@ public class MainActivity extends BaseActivity
         int jump = intent.getIntExtra("jump", -999);
         if(jump != -999){
             this.swipeDirection = false;
-            this.currentPage = jump -1;
+            this.currentPage = jump - 2;
             this.onStartNewPage();
         } else {
             mediaPlayer1 = MediaPlayer.create(this, R.raw.music0);

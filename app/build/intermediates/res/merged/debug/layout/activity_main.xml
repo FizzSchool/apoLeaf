@@ -48,7 +48,6 @@
                 android:id="@+id/imgLayout"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-
                 android:layout_alignParentBottom="true"
                 android:layout_weight="46"
                 android:orientation="vertical">
@@ -61,7 +60,6 @@
                     android:layout_alignParentRight="true"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
-                    android:background="@android:color/black"
                     android:cropToPadding="false"
                     android:scaleType="fitEnd"
                     android:src="@mipmap/me3" />

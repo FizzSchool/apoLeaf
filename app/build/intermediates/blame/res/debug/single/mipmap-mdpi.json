@@ -6,5 +6,9 @@
     {
         "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
         "source": "D:\\LeafApo\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\LeafApo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\logo2.png",
+        "source": "D:\\LeafApo\\app\\src\\main\\res\\mipmap-mdpi\\logo2.png"
     }
 ]
