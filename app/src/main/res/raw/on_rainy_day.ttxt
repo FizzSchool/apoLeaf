@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextStream version="1.1">
+  <TextStreamHeader width="400" height="60" layer="0" translation_x="0" translation_y="0">
+    <TextSampleDescription horizontalJustification="center" verticalJustification="bottom" backColor="0 0 0 0" verticalText="no" fillTextRegion="no" continuousKaraoke="no" scroll="None">
+<FontTable>
+  <FontTableEntry fontName="Sans" fontID="1"/>
+</FontTable>
+<TextBox top="0" left="0" bottom="60" right="400"/>
+<Style styles="Normal" fontID="1" fontSize="18" color="ff ff ff ff"/>
+    </TextSampleDescription>
+  </TextStreamHeader>
+  <TextSample sampleTime="00:00:02.200" xml:space="preserve">|On Rainy Days (English Version)</TextSample>
+  <TextSample sampleTime="00:00:10.200" xml:space="preserve">|by Tiên Cookie</TextSample>
+  <TextSample sampleTime="00:00:22.550" xml:space="preserve">|Girl I know that it's been so long
+Em, anh biết đã rất lâu rồi</TextSample>
+  <TextSample sampleTime="00:00:31.550" xml:space="preserve">|And I admit that I was wrong
+Và anh thú nhận rằng mình đã sai</TextSample>
+  <TextSample sampleTime="00:00:33.850" xml:space="preserve">|The one at fault was me
+Người có lỗi là anh</TextSample>
+  <TextSample sampleTime="00:00:37.000" xml:space="preserve">|But I can't seem to run away
+Nhưng anh dường như chẳng thể chạy đi đâu cả</TextSample>
+  <TextSample sampleTime="00:00:42.700" xml:space="preserve">|Thinking 'bout it every day
+Khi anh nghĩ về điều đó hàng ngày</TextSample>
+  <TextSample sampleTime="00:00:45.000" xml:space="preserve">|I can't forget these memories
+Anh chẳng thể nào quên được những kỉ niệm đó</TextSample>
+  <TextSample sampleTime="00:00:49.000" xml:space="preserve">|Though I shouldn't be surprised
+Anh cũng chẳng bất ngờ</TextSample>
+  <TextSample sampleTime="00:00:51.450" xml:space="preserve">|There's teardrops forming in my eyes
+Khi có những giọt nước mắt đọng trên khóe mi</TextSample>
+  <TextSample sampleTime="00:00:53.800" xml:space="preserve">|Why did I
+Tại sao mà anh</TextSample>
+  <TextSample sampleTime="00:00:55.800" xml:space="preserve">|Sit there and watch you walk away
+Lại ngồi đây và nhìn em bước đi kia chứ</TextSample>
+  <TextSample sampleTime="00:00:58.300" xml:space="preserve">|I thought that time would help me heal
+Anh đã nghĩ rằng thời gian đó sẽ giúp anh lành lại</TextSample>
+  <TextSample sampleTime="00:01:01.200" xml:space="preserve">|All this pain I have to feel
+Tất cả những nỗi đau mà anh phải chịu đựng</TextSample>
+  <TextSample sampleTime="00:01:04.250" xml:space="preserve">|But I'll always remember the days
+Nhưng anh vẫn sẽ luôn nhớ những ngày</TextSample>
+  <TextSample sampleTime="00:01:09.650" xml:space="preserve">|When the rain starts falling
+Khi mà trời bắt đầu đổ cơn mưa</TextSample>
+  <TextSample sampleTime="00:01:13.150" xml:space="preserve">|You are here with me
+Em ở đây, bên cạnh anh</TextSample>
+  <TextSample sampleTime="00:01:15.250" xml:space="preserve">|Through the night you are all I see
+Suốt mọi đêm, em là tất cả những gì mà anh có thể thấy</TextSample>
+  <TextSample sampleTime="00:01:17.750" xml:space="preserve">|But as I come closer
+Nhưng khi anh tiến lại gần hơn</TextSample>
+  <TextSample sampleTime="00:01:23.650" xml:space="preserve">|You would disappear
+Em lại sẽ biến mất</TextSample>
+  <TextSample sampleTime="00:01:26.300" xml:space="preserve">|So I know that you were never really here
+Cho nên anh biết, em sẽ chẳng bao giờ thực sự ở đây nữa</TextSample>
+  <TextSample sampleTime="00:01:52.350" xml:space="preserve">|Although I have tried so hard
+Mặc dù anh đã cố gắng rất nhiều</TextSample>
+  <TextSample sampleTime="00:01:55.600" xml:space="preserve">|You had to leave me in the dark
+Em sẽ phải bỏ mặc anh, trong màn đêm</TextSample>
+  <TextSample sampleTime="00:01:57.750" xml:space="preserve">|Now we are
+Còn bây giờ, chúng ta là</TextSample>
+  <TextSample sampleTime="00:01:59.600" xml:space="preserve">|Strangers a thousand miles apart
+Những người lạ cách xa nhau hàng vạn dặm</TextSample>
+  <TextSample sampleTime="00:02:02.800" xml:space="preserve">|I thought these rainy nights would flush
+Anh đã nghĩ rằng những cơn mưa đêm có thể cuốn trôi tất cả</TextSample>
+  <TextSample sampleTime="00:02:05.950" xml:space="preserve">|All these memories of us
+Những kỉ niệm của chúng ta</TextSample>
+  <TextSample sampleTime="00:02:07.850" xml:space="preserve">|But I'll always remember because
+Nhưng anh sẽ luôn luôn nhớ bở vì</TextSample>
+  <TextSample sampleTime="00:02:12.300" xml:space="preserve">|When the rain starts falling
+Khi mà mỗi lần trời đổ mưa</TextSample>
+  <TextSample sampleTime="00:02:16.400" xml:space="preserve">|You are by my side
+Em đã ở bên cạnh anh</TextSample>
+  <TextSample sampleTime="00:02:18.700" xml:space="preserve">|And I'm left with no place to hide
+Và anh rời đi mà chẳng có nơi nào để ẩn náu</TextSample>
+  <TextSample sampleTime="00:02:21.900" xml:space="preserve">|All the pain I suffered
+Tất cả nỗi đau mà anh chịu đựng</TextSample>
+  <TextSample sampleTime="00:02:27.000" xml:space="preserve">|Never goes away
+Sẽ không bao giờ biến mất</TextSample>
+  <TextSample sampleTime="00:02:29.000" xml:space="preserve">|I'm reminded of you on the rainy days
+Và anh lại gợi nhớ về em trong những ngày mưa ấy</TextSample>
+  <TextSample sampleTime="00:02:36.800" xml:space="preserve">|I just don't know
+Anh chỉ không biết rằng</TextSample>
+  <TextSample sampleTime="00:02:38.400" xml:space="preserve">|How we just fell apart so suddenly
+Tại sao tình ta lại tan vỡ quá bất ngờ như vậy</TextSample>
+  <TextSample sampleTime="00:02:40.500" xml:space="preserve">|Now there's nowhere in your heart for me
+Bây giờ, trong trái tim em, sẽ chẳng còn khoảng trống nào cho anh</TextSample>
+  <TextSample sampleTime="00:02:43.100" xml:space="preserve">|I know that it's my fault I was
+Anh biết rằng, đó là lỗi anh gây ra</TextSample>
+  <TextSample sampleTime="00:02:49.450" xml:space="preserve">|So blinded from this pride
+Và đó là cái giá cho sự mù quáng</TextSample>
+  <TextSample sampleTime="00:02:52.350" xml:space="preserve">|Now I'm left here alone in the night
+Bây giờ, anh ở đây, một mình trong đêm tối</TextSample>
+  <TextSample sampleTime="00:02:58.650" xml:space="preserve">|biga oneun nal-en nareul chajawa
+Những ngày mưa rơi, em lại đến tìm anh</TextSample>
+  <TextSample sampleTime="00:03:01.350" xml:space="preserve">|bameul saeweo gwireop hida
+Dằn vặt anh trong suốt đêm dài</TextSample>
+  <TextSample sampleTime="00:03:04.800" xml:space="preserve">|biga geuchyeogamyeon neodo ddaraseo
+Khi mưa bắt đầu ngừng rơi, em cũng ngưng lại</TextSample>
+  <TextSample sampleTime="00:03:10.900" xml:space="preserve">|seoseo-hi jogeumsshik geuchyeogagettji
+Dần dần, từng chút một</TextSample>
+  <TextSample sampleTime="00:03:12.900" xml:space="preserve">|@FTS</TextSample>
+</TextStream>

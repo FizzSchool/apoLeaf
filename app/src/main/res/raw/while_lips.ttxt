@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextStream version="1.1">
+  <TextStreamHeader width="400" height="60" layer="0" translation_x="0" translation_y="0">
+    <TextSampleDescription horizontalJustification="center" verticalJustification="bottom" backColor="0 0 0 0" verticalText="no" fillTextRegion="no" continuousKaraoke="no" scroll="None">
+      <FontTable>
+        <FontTableEntry fontName="Sans" fontID="1"/>
+      </FontTable>
+      <TextBox top="0" left="0" bottom="60" right="400"/>
+      <Style styles="Normal" fontID="1" fontSize="18" color="ff ff ff ff"/>
+    </TextSampleDescription>
+  </TextStreamHeader>
+  <TextSample sampleTime="00:00:27.570" xml:space="preserve">|Sweet little words made for silence not talk
+      Những lời ngọt ngào
+chỉ dành cho khoảnh lặng trái tim,</TextSample>
+  <TextSample sampleTime="00:00:32.420" xml:space="preserve">|Young heart for love not heartache
+      Chẳng còn thơ dại
+tình yêu chân thành sẽ không đau khổ.</TextSample>
+  <TextSample sampleTime="00:00:36.830" xml:space="preserve">|Dark hair for catching the wind
+      Suối tóc huyền cuốn trôi theo gió,</TextSample>
+  <TextSample sampleTime="00:00:40.620" xml:space="preserve">|Not to veil the sight of a cold world
+      Chẳng còn gì cảnh thế giới lạnh căm.</TextSample>
+  <TextSample sampleTime="00:00:44.980" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:45.860" xml:space="preserve">|Kiss while your lips are still red
+      Hãy hôn, khi đôi môi em còn thắm đỏ,</TextSample>
+  <TextSample sampleTime="00:00:52.330" xml:space="preserve">|While he's still silent Rest
+      Khi chàng trai ấy vẫn còn đang ngủ yên</TextSample>
+  <TextSample sampleTime="00:00:57.730" xml:space="preserve">|While bosom is still untouched, Unveiled
+      Khi bầu ngực kia vẫn chưa ai chạm đến, </TextSample>
+  <TextSample sampleTime="00:01:03.760" xml:space="preserve">|Hold another hand
+      Chưa bị phủ che bởi mái tóc nào.</TextSample>
+  <TextSample sampleTime="00:01:06.810" xml:space="preserve">|While the hand's still without a tool
+      Khi đôi tay còn chưa "vấy bẩn",</TextSample>
+  <TextSample sampleTime="00:01:10.860" xml:space="preserve">|Drown into eyes while they're still blind
+      Hãy chìm vào đáy mắt khi chúng vẫn nhắm nghiền,</TextSample>
+  <TextSample sampleTime="00:01:16.760" xml:space="preserve">|Love while the night still hides
+      Hãy yêu khi màn đêm còn che dấu
+</TextSample>
+  <TextSample sampleTime="00:01:20.810" xml:space="preserve">|The withering dawn
+      buổi bình minh hoang tàn.</TextSample>
+  <TextSample sampleTime="00:01:24.420" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:01:43.260" xml:space="preserve">|First day of love never comes back
+      Ngày yêu đầu sẽ chẳng trở lại đâu</TextSample>
+  <TextSample sampleTime="00:01:46.620" xml:space="preserve">|A passionate hour's never a wasted one
+      Lòng trắc ẩn, sức mạnh chẳng bao giờ sai lạc,</TextSample>
+  <TextSample sampleTime="00:01:52.870" xml:space="preserve">|The violin, the poet's hand
+      Những cây vĩ cầm hòa những vần thơ</TextSample>
+  <TextSample sampleTime="00:01:56.720" xml:space="preserve">|Every thawing heartMọi trái tim </TextSample>
+  <TextSample sampleTime="00:01:58.520" xml:space="preserve">|Plays your theme with care
+      sẽ hòa chung giai điệu.</TextSample>
+  <TextSample sampleTime="00:02:00.530" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:02:02.190" xml:space="preserve">|Kiss while your lips are still red
+      Hãy hôn, khi đôi môi em còn thắm đỏ,</TextSample>
+  <TextSample sampleTime="00:02:08.410" xml:space="preserve">|While he's still silent Rest
+      Khi chàng trai ấy vẫn còn đang ngủ yên,</TextSample>
+  <TextSample sampleTime="00:02:13.580" xml:space="preserve">|While bosom is still untouched, Unveiled
+      Khi bầu ngực kia vẫn chưa ai chạm đến,</TextSample>
+  <TextSample sampleTime="00:02:19.860" xml:space="preserve">|Hold another hand
+      Chưa bị phủ che bởi mái tóc nào.</TextSample>
+  <TextSample sampleTime="00:02:22.840" xml:space="preserve">|While the hand's still without a tool
+      Khi đôi tay còn chưa "vấy bẩn",</TextSample>
+  <TextSample sampleTime="00:02:26.950" xml:space="preserve">|Drown into eyes while they're still blind
+      Hãy chìm vào đáy mắt khi chúng vẫn nhắm nghiền,</TextSample>
+  <TextSample sampleTime="00:02:32.930" xml:space="preserve">|Love while the night still hides
+      Hãy yêu khi màn đêm còn che dấu</TextSample>
+  <TextSample sampleTime="00:02:36.410" xml:space="preserve">|The withering dawn
+      buổi bình minh hoang tàn.
+</TextSample>
+  <TextSample sampleTime="00:02:44.620" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:02:59.000" xml:space="preserve">|Kiss while your lips are still red
+      Hãy hôn, khi đôi môi em còn thắm đỏ,</TextSample>
+  <TextSample sampleTime="00:03:05.720" xml:space="preserve">|While he's still silent Rest
+      Khi chàng trai ấy vẫn còn đang ngủ yên,</TextSample>
+  <TextSample sampleTime="00:03:10.680" xml:space="preserve">|While bosom is still untouched, Unveiled
+      Khi bầu ngực kia vẫn chưa ai chạm đến,</TextSample>
+  <TextSample sampleTime="00:03:16.910" xml:space="preserve">|Hold another hand
+      Chưa bị phủ che bởi mái tóc nào.</TextSample>
+  <TextSample sampleTime="00:03:20.010" xml:space="preserve">|While the hand's still without a tool
+      Khi đôi tay còn chưa "vấy bẩn",</TextSample>
+  <TextSample sampleTime="00:03:24.070" xml:space="preserve">|Drown into eyes while they're still blind
+      Hãy chìm vào đáy mắt khi chúng vẫn nhắm nghiền,</TextSample>
+  <TextSample sampleTime="00:03:30.090" xml:space="preserve">|Love while the night still hides
+      Hãy yêu khi màn đêm còn che dấu</TextSample>
+  <TextSample sampleTime="00:03:33.890" xml:space="preserve">|The withering dawn
+      buổi bình minh hoang tàn.</TextSample>
+  <TextSample sampleTime="00:03:35.890" xml:space="preserve"></TextSample>
+</TextStream>

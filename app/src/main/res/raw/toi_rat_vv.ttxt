@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextStream version="1.1">
+  <TextStreamHeader width="400" height="60" layer="0" translation_x="0" translation_y="0">
+    <TextSampleDescription horizontalJustification="center" verticalJustification="bottom" backColor="0 0 0 0" verticalText="no" fillTextRegion="no" continuousKaraoke="no" scroll="None">
+      <FontTable>
+        <FontTableEntry fontName="Sans" fontID="1"/>
+      </FontTable>
+      <TextBox top="0" left="0" bottom="60" right="400"/>
+      <Style styles="Normal" fontID="1" fontSize="18" color="ff ff ff ff"/>
+    </TextSampleDescription>
+  </TextStreamHeader>
+  <TextSample sampleTime="00:00:00.000" xml:space="preserve">|我很快乐</TextSample>
+  <TextSample sampleTime="00:00:01.470" xml:space="preserve">|演唱：刘惜君</TextSample>
+  <TextSample sampleTime="00:00:04.550" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:07.430" xml:space="preserve">|LRC制作：乐儿</TextSample>
+  <TextSample sampleTime="00:00:11.570" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:16.410" xml:space="preserve">|说 有什么 不能说 怕什么
+  Có gì tôi không thể nói, có gì mà phải sợ</TextSample>
+  <TextSample sampleTime="00:00:19.970" xml:space="preserve">|相信我 不会哭 我不会难过
+  Tôi tin mình sẽ không khóc cũng sẽ không đau buồn </TextSample>
+  <TextSample sampleTime="00:00:24.530" xml:space="preserve">|错 谁的错 谁能说得清楚
+  Lỗi lầm của ai, ai có thể nói rõ ràng</TextSample>
+  <TextSample sampleTime="00:00:28.450" xml:space="preserve">|还不如算我的错
+  Thì cứ xem là lỗi của tôi </TextSample>
+  <TextSample sampleTime="00:00:32.440" xml:space="preserve">|做 有什么 不敢做
+  Có gì mà tôi không dám làm, có gì mà phải sợ </TextSample>
+  <TextSample sampleTime="00:00:35.060" xml:space="preserve">|怕什么 相信我 不在乎
+  Tôi tin mình sẽ chẳng quan tâm  </TextSample>
+  <TextSample sampleTime="00:00:37.980" xml:space="preserve">|就算你走了
+  dù anh có ra đi</TextSample>
+  <TextSample sampleTime="00:00:40.540" xml:space="preserve">|落 就算我 的心从十六楼
+  Hay dù tim tôi có rơi từ tầng 16</TextSample>
+  <TextSample sampleTime="00:00:44.410" xml:space="preserve">|落下负一层 B座
+  xuống tận tầng B1 </TextSample>
+  <TextSample sampleTime="00:00:47.160" xml:space="preserve">|我也不会难过 你不要小看我
+  Thì tôi cũng không buồn </TextSample>
+  <TextSample sampleTime="00:00:51.220" xml:space="preserve">|有什么熬不过 大不了唱首歌
+  Anh đừng xem thường tôi, có gì mà không nhịn được chứ</TextSample>
+  <TextSample sampleTime="00:00:55.210" xml:space="preserve">|虽然是悲伤的歌 声音有点颤抖
+   Chẳng qua như 1 bài hát Dù là 1 bài hát buồn Giọng hát đôi khi run rẫy</TextSample>
+  <TextSample sampleTime="00:00:59.210" xml:space="preserve">|也比你好得多 我还是很快乐
+   Giọng hát đôi khi run rẫy, cũng tốt hơn anh đấy thôi </TextSample>
+  <TextSample sampleTime="00:01:03.200" xml:space="preserve">|我再不会难过 你别太小看我
+  Tôi vẫn rất vui vẻ Tôi sẽ không buồn đâu Anh đừng xem thường tôi   	</TextSample>
+  <TextSample sampleTime="00:01:07.010" xml:space="preserve">|有什么熬不过 谁说我不能喝
+  	Có gì mà không chịu nổi ,ai nói tôi không uống được 
+  </TextSample>
+  <TextSample sampleTime="00:01:11.190" xml:space="preserve">|我喝得比谁都多 走路有点颠簸
+  Tôi uống nhiều hơn bất cứ ai ,bước chân dù hơi lảo đảo </TextSample>
+  <TextSample sampleTime="00:01:14.930" xml:space="preserve">|也比你强得多 我还是很快乐
+  	Vẫn mạnh mẽ hơn anh đấy thôi ,tôi vẫn vui vẻ thôi</TextSample>
+  <TextSample sampleTime="00:01:22.610" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:01:24.420" xml:space="preserve">|做 有什么 不忍心
+  Có gì mà không ̣đành lòng, có gì mà phải sợ </TextSample>
+  <TextSample sampleTime="00:01:27.220" xml:space="preserve">|怕什么 相信我 不在乎
+  Tôi tin mình sẽ chẳng quan tâm  </TextSample>
+  <TextSample sampleTime="00:01:29.780" xml:space="preserve">|就算你走了
+  dù anh có ra đi</TextSample>
+  <TextSample sampleTime="00:01:32.400" xml:space="preserve">|落 就算我 的心从十六楼
+  Hay dù tim tôi có rơi từ tầng 16 </TextSample>
+  <TextSample sampleTime="00:01:36.450" xml:space="preserve">|落下负一层 B座
+  xuống tận tầng B1 </TextSample>
+  <TextSample sampleTime="00:01:39.270" xml:space="preserve">|我也不会难过 你不要小看我
+  Thì tôi cũng không buồn ,anh đừng xem thường tôi </TextSample>
+  <TextSample sampleTime="00:01:43.020" xml:space="preserve">|有什么熬不过 大不了唱首歌
+  Có gì mà không nhịn được chứ ,chẳng qua như 1 bài hát </TextSample>
+  <TextSample sampleTime="00:01:47.060" xml:space="preserve">|虽然是悲伤的歌 声音有点颤抖
+  Dù là bài hát thương tâm ,giọng hát đôi khi run rẫy </TextSample>
+  <TextSample sampleTime="00:01:51.070" xml:space="preserve">|也比你好得多 我还是很快乐
+  Vẫn tốt hơn anh đấy thôi ,tôi vẫn sẽ vui vẻ thôi </TextSample>
+  <TextSample sampleTime="00:01:55.240" xml:space="preserve">|我再不会难过 你别太小看我
+  Tôi sẽ không buồn đâu ,anh đừng xem thường tôi </TextSample>
+  <TextSample sampleTime="00:01:59.110" xml:space="preserve">|有什么熬不过 谁说我不能喝
+  Có gì mà chịu không nổi ,ai nói tôi không uống được </TextSample>
+  <TextSample sampleTime="00:02:03.110" xml:space="preserve">|我喝得比谁都多 走路有点颠簸
+  Tôi uống nhiều hơn bất cứ ai ,bước chân dù hơi lảo đảo </TextSample>
+  <TextSample sampleTime="00:02:07.100" xml:space="preserve">|也比你强得多 我还是很快乐
+  Vẫn mạnh mẽ hơn anh đấy thôi ,tôi vẫn vui vẻ thôi</TextSample>
+  <TextSample sampleTime="00:02:18.490" xml:space="preserve">|~music~</TextSample>
+  <TextSample sampleTime="00:02:27.290" xml:space="preserve">|我也不会难过 你不要小看我
+  Thì tôi cũng không buồn </TextSample>
+  <TextSample sampleTime="00:02:31.110" xml:space="preserve">|有什么熬不过 大不了唱首歌
+  Có gì mà không nhịn được chứ ,chẳng qua như 1 bài hát </TextSample>
+  <TextSample sampleTime="00:02:35.090" xml:space="preserve">|虽然是悲伤的歌 声音有点颤抖
+  Dù là bài hát thương tâm ,giọng hát đôi khi run rẫy </TextSample>
+  <TextSample sampleTime="00:02:39.140" xml:space="preserve">|也比你好得多 我还是很快乐
+  Vẫn tốt hơn anh đấy thôi ,tôi vẫn sẽ vui vẻ thôi </TextSample>
+  <TextSample sampleTime="00:02:43.330" xml:space="preserve">|我才不会难过 你别太小看我
+  Tôi sẽ không buồn đâu ,anh đừng xem thường tôi </TextSample>
+  <TextSample sampleTime="00:02:47.320" xml:space="preserve">|有什么熬不过 烧掉你写的信
+  Có gì mà chịu không nổi ,ai nói tôi không uống được </TextSample>
+  <TextSample sampleTime="00:02:51.310" xml:space="preserve">|忘掉你喜欢的歌 绑住我的眼睛
+  Tôi uống nhiều hơn bất cứ ai ,bước chân dù hơi lảo đảo </TextSample>
+  <TextSample sampleTime="00:02:55.440" xml:space="preserve">|眼泪掉不下来 我还是很快乐
+  Vẫn mạnh mẽ hơn anh đấy thôi ,tôi vẫn vui vẻ thôi</TextSample>
+  <TextSample sampleTime="00:02:57.440" xml:space="preserve"></TextSample>
+</TextStream>

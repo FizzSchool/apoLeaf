@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextStream version="1.1">
+  <TextStreamHeader width="400" height="60" layer="0" translation_x="0" translation_y="0">
+    <TextSampleDescription horizontalJustification="center" verticalJustification="bottom" backColor="0 0 0 0" verticalText="no" fillTextRegion="no" continuousKaraoke="no" scroll="None">
+      <FontTable>
+        <FontTableEntry fontName="Sans" fontID="1"/>
+      </FontTable>
+      <TextBox top="0" left="0" bottom="60" right="400"/>
+      <Style styles="Normal" fontID="1" fontSize="18" color="ff ff ff ff"/>
+    </TextSampleDescription>
+  </TextStreamHeader>
+  <TextSample sampleTime="00:00:22.610" xml:space="preserve">|I was thinking bout you, thinkin bout me
+      Anh nghĩ về em, nghĩ về anh</TextSample>
+  <TextSample sampleTime="00:00:25.780" xml:space="preserve">|Thinkin bout us, what we gon' be
+      Nghĩ về cả hai, rồi ngày mai chúng ta sẽ là gì của nhau</TextSample>
+  <TextSample sampleTime="00:00:28.800" xml:space="preserve">|Open my eyes, it was only Just A Dream
+      Mở mắt ra, thì ra chỉ là mộng</TextSample>
+  <TextSample sampleTime="00:00:34.760" xml:space="preserve">|So I travelled back, down that road
+      Anh tìm về lối cũ</TextSample>
+  <TextSample sampleTime="00:00:37.560" xml:space="preserve">|Will you come back, no one knows
+      Liệu em có trở về? Không ai biết cả</TextSample>
+  <TextSample sampleTime="00:00:40.440" xml:space="preserve">|I realize, it was only Just A Dream
+      Anh nhận ra, đó chỉ là mơ</TextSample>
+  <TextSample sampleTime="00:00:47.030" xml:space="preserve">|I was at the top and now its like I'm in the basement
+      Anh đã có tất cả, nhưng giờ chẳng còn gì</TextSample>
+  <TextSample sampleTime="00:00:49.890" xml:space="preserve">|Number one spot and now you find a replacement
+      Đã là tất cả với em, nhưng em đã tìm được người thay thế</TextSample>
+  <TextSample sampleTime="00:00:53.260" xml:space="preserve">|I swear now I can't take it, knowing somebody's got my baby
+      Thật lòng anh vẫn chưa thể chấp nhận, ai đó đã cướp em đi rồi</TextSample>
+  <TextSample sampleTime="00:00:59.190" xml:space="preserve">|And now you ain't around baby I can't think
+      Và giờ không còn em, anh không biết phải làm sao</TextSample>
+  <TextSample sampleTime="00:01:02.170" xml:space="preserve">|I should've put it down, should've got the ring
+      Đáng lẽ anh nên buông xuôi và lấy lại chiếc nhẫn đó</TextSample>
+  <TextSample sampleTime="00:01:05.540" xml:space="preserve">|Cause I can still feel it in the air
+      Cảm giác em mang lại vẫn động lại nơi đây</TextSample>
+  <TextSample sampleTime="00:01:07.260" xml:space="preserve">|See her pretty face run my fingers through you hair
+      Được nhìn gương mặt xinh xắn của em, đạt bàn tay chải lên mái tóc</TextSample>
+  <TextSample sampleTime="00:01:10.620" xml:space="preserve">|My lover, my life, my baby, my wife
+      Người tình của anh, cuộc sống của anh, người ạnh yêu, bạn đời của anh</TextSample>
+  <TextSample sampleTime="00:01:15.880" xml:space="preserve">|you left me, I'm tied
+      Em rời bỏ anh, lòng anh đau lắm</TextSample>
+  <TextSample sampleTime="00:01:18.600" xml:space="preserve">|Cause I knew that it just ain't right
+      Vì anh biết rằng điều đó không đúng</TextSample>
+  <TextSample sampleTime="00:01:36.050" xml:space="preserve">|Will she come back, no one knows
+      Em có quay lại không, sẽ chẳng ai biết cả</TextSample>
+  <TextSample sampleTime="00:01:45.550" xml:space="preserve">|When I be ridin' man I swear I see your face at every turn
+      Em thề rằng em lại thấy hình ảnh của anh tại mỗi ngã rẽ khi đang lái xe</TextSample>
+  <TextSample sampleTime="00:01:48.270" xml:space="preserve">|Tryna get my Usher on but I can't let it Burn
+      Em cố gạt đi nhưng không thể quên được hình bóng ấy</TextSample>
+  <TextSample sampleTime="00:01:51.120" xml:space="preserve">|And I just hopes you know that you the only one I yearn for
+      Và em hi vọng anh biết rằng anh là người duy nhất em khao khát</TextSample>
+  <TextSample sampleTime="00:01:54.890" xml:space="preserve">|More and more I miss you, when will I learn
+      Đến bao giờ em mới rút ra bài học cho mình đây</TextSample>
+  <TextSample sampleTime="00:01:57.240" xml:space="preserve">|Didn't give her all my love, I guess now I got my payback
+      Và đã không trao trọn tình yêu cho anh, em đang phải trả giá</TextSample>
+  <TextSample sampleTime="00:02:00.190" xml:space="preserve">|Now I'm in the club thinking all about you baby
+      Bây giờ trong câu lạc bộ, em chỉ nghĩ về anh</TextSample>
+  <TextSample sampleTime="00:02:03.470" xml:space="preserve">|Hey, you was so easy to love
+      Hey, anh thật dễ yêu một ai đó nhỉ</TextSample>
+  <TextSample sampleTime="00:02:06.170" xml:space="preserve">|But wait, I guess that love wasn't enough
+      Nhưng khoan đã tình yêu đó vẫn chưa đủ</TextSample>
+  <TextSample sampleTime="00:02:08.570" xml:space="preserve">|I'm going through it everytime that I'm alone
+      Em đã phải nếm trải mùi vị của sự cô đơn</TextSample>
+  <TextSample sampleTime="00:02:11.950" xml:space="preserve">|And now I'm missing, wishing you'd pick up the phone
+      Và bây giờ em chỉ mong anh nhấc điện thoại lên</TextSample>
+  <TextSample sampleTime="00:02:15.020" xml:space="preserve">|But you made the decision that you wanted to move on
+      Và quyết định rằng anh đã có muốn bước tiếp hay không</TextSample>
+  <TextSample sampleTime="00:02:17.780" xml:space="preserve">|Cause I was wrongCũng bởi em đã sai thật rồi</TextSample>
+  <TextSample sampleTime="00:02:43.790" xml:space="preserve">|If you ever loved somebody put your hands up
+      Hãy giơ tay lên nếu bạn từng yêu một ai đó</TextSample>
+  <TextSample sampleTime="00:02:49.620" xml:space="preserve">|And now they're gone and you're wishing you could give them everything
+      Và bây giờ họ đã đi và bạn đang ước rằng mình đã có thể cho họ mọi thứ</TextSample>
+  <TextSample sampleTime="00:02:55.330" xml:space="preserve">|Said if you ever loved somebody put your hands upHãy giơ tay lên nếu bạn từng yêu một ai đó</TextSample>
+  <TextSample sampleTime="00:03:01.260" xml:space="preserve">|Now they're gone and you're wishing you could give them everything
+      Và bây giờ họ đã đi và bạn đang ước rằng mình đã có thể cho họ mọi thứ</TextSample>
+  <TextSample sampleTime="00:03:12.790" xml:space="preserve">|Open my eyes , it was only Just A Dream
+      Mở mắt ra, đó chỉ là một giấc mơ</TextSample>
+  <TextSample sampleTime="00:03:14.790" xml:space="preserve"></TextSample>
+</TextStream>

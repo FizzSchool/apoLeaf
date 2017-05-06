@@ -6,7 +6,9 @@ import android.graphics.Outline;
 import android.graphics.Path;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
+import android.os.Build;
 import android.os.Handler;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,6 +21,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewOutlineProvider;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -43,11 +47,13 @@ public class BaseActivity extends AppCompatActivity {
     public ArrayList<ApoPage> apoPages;
 
     public MediaPlayer mediaPlayer1;
-
+    public boolean mediaFadeOut = false;
 
     public Handler musicHandler;
 
     public Menu menuOpt;
+
+    protected Handler lyricHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +64,6 @@ public class BaseActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.go, menu);
-
         this.menuOpt = menu;
 
         menu.findItem(R.id.action_favorite).getActionView().setOnClickListener(new View.OnClickListener() {
@@ -87,17 +92,47 @@ public class BaseActivity extends AppCompatActivity {
 
     }
 
-    public void init(){
+    public void FullScreencall() {
+        if(Build.VERSION.SDK_INT > 11 && Build.VERSION.SDK_INT < 19) { // lower api
+            View v = this.getWindow().getDecorView();
+            v.setSystemUiVisibility(View.GONE);
+        } else if(Build.VERSION.SDK_INT >= 19) {
+            //for new api versions.
+            View decorView = getWindow().getDecorView();
+            int uiOptions = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
+            decorView.setSystemUiVisibility(uiOptions);
+        }
+    }
 
+    public void changeStatusBarColor(String colorCode){
+        if(Build.VERSION.SDK_INT >= 21){
+            Window window = this.getWindow();
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.setStatusBarColor(this.manipulateColor(Color.parseColor(colorCode), (float) 0.8));
+        }
+    }
+
+    public int manipulateColor(int color, float factor) {
+        int a = Color.alpha(color);
+        int r = Math.round(Color.red(color) * factor);
+        int g = Math.round(Color.green(color) * factor);
+        int b = Math.round(Color.blue(color) * factor);
+        return Color.argb(a,
+                Math.min(r,255),
+                Math.min(g,255),
+                Math.min(b,255));
+    }
+
+    public void init(){
         // set Data
-        ApoData apoData = new ApoData();
+        ApoData apoData = new ApoData(this);
         apoPages = apoData.getApoPages();
 
         typeface = Typeface.createFromAsset(getAssets(), "fonts/font.ttf");
 
+        this.changeStatusBarColor("#A4A4A4");
         this.setToolBar();
-
-
     }
 
     public void setToolBar(){
@@ -113,9 +148,9 @@ public class BaseActivity extends AppCompatActivity {
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
-                Toast.makeText(getApplicationContext(), query, 5000).show();
                 Intent intent = new Intent(getBaseContext(), MainActivity.class);
                 if (Check.checkQuery(query, BaseActivity.this.apoPages.size()) == true) {
+                    BaseActivity.this.stopAction();
                     intent.putExtra("jump", Integer.parseInt(query));
                     startActivity(intent);
                 }
@@ -149,7 +184,6 @@ public class BaseActivity extends AppCompatActivity {
                 }
             });
             searchplate.setClipToOutline(true);
-            searchplate.setElevation(10);
         }
 
         LinearLayout.LayoutParams mg = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
@@ -202,6 +236,10 @@ public class BaseActivity extends AppCompatActivity {
             this.mediaPlayer1.stop();
             this.musicHandler.removeCallbacksAndMessages(null);
             this.mediaPlayer1 = null;
+        }
+
+        if (this.lyricHandler != null){
+            this.lyricHandler.removeCallbacksAndMessages(null);
         }
     }
 

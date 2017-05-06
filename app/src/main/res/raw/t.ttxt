@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextStream version="1.1">
+  <TextStreamHeader width="400" height="60" layer="0" translation_x="0" translation_y="0">
+    <TextSampleDescription horizontalJustification="center" verticalJustification="bottom" backColor="0 0 0 0" verticalText="no" fillTextRegion="no" continuousKaraoke="no" scroll="None">
+      <FontTable>
+        <FontTableEntry fontName="Sans" fontID="1"/>
+      </FontTable>
+      <TextBox top="0" left="0" bottom="60" right="400"/>
+      <Style styles="Normal" fontID="1" fontSize="18" color="ff ff ff ff"/>
+    </TextSampleDescription>
+  </TextStreamHeader>
+  <TextSample sampleTime="00:00:37.220" xml:space="preserve">いつもは尖った父の言葉が| Itsumo wa togatte ta chichi no kotoba ga
+Những lời nói lúc nào cũng nghiêm khắc của cha</TextSample>
+  <TextSample sampleTime="00:00:42.980" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:43.080" xml:space="preserve">今日は暖かく感じました|kyou wa atatakaku kanji mashita 
+Sao hôm nay lại trở nên ấm áp đến thế </TextSample>
+  <TextSample sampleTime="00:00:47.780" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:48.080" xml:space="preserve">今日は暖かく感じました | yasashisa mo egao mo yume no katarikata mo
+Vì không biết làm thế nào nên em đã bắt chước anh</TextSample>
+  <TextSample sampleTime="00:00:53.280" xml:space="preserve">優しさも笑顔も夢の語り方も | shiranakute zenbu kimi wo maneta yo
+Sự dịu dàng cho đến sự tươi cười những lần anh nói về giấc mơ</TextSample>
+  <TextSample sampleTime="00:00:59.100" xml:space="preserve">知らなくて全部君を真似たよ | mou sukoshi dake de ii
+Chỉ thêm một chút nữa thôi</TextSample>
+  <TextSample sampleTime="00:01:01.520" xml:space="preserve">あと少しだけでいい | ato sukoshi dake de ii
+Chỉ cần thêm một chút nữa</TextSample>
+  <TextSample sampleTime="00:01:04.660" xml:space="preserve">もう少しだけでいいから |  mou sukoshi dake de ii kara
+Vì chỉ cần thêm một chút nữa thôi</TextSample>
+  <TextSample sampleTime="00:01:09.600" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:01:09.960" xml:space="preserve">もう少しだけでいい | mou sukoshi dake de ii
+Gần thêm một chút nữa thôi</TextSample>
+  <TextSample sampleTime="00:01:12.520" xml:space="preserve"> あと少しだけでいい| ato sukoshi dake de ii
+Chỉ cần gần thêm một chút nữa</TextSample>
+  <TextSample sampleTime="00:01:15.440" xml:space="preserve">もう少しだけでくっついていようか| mou sukoshi dake kuttsuite iyou ka
+Chúng ta hãy bên nhau một chút nữa thôi nhé</TextSample>
+  <TextSample sampleTime="00:01:19.640" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:01:24.380" xml:space="preserve">僕らタイムフライヤー |  bokura TAIMU FURAIYAA
+Chúng ta là những người vượt thời gian</TextSample>
+  <TextSample sampleTime="00:01:26.360" xml:space="preserve">時を駆け上がるクライマー | toki wo kakeagaru KURAIMAA
+vượt xuyên qua dòng thời gian</TextSample>
+  <TextSample sampleTime="00:01:29.200" xml:space="preserve">時の隠れん坊逸れっこはもういやなんだ|toki no kakurenbou hagurekkou wa mou iya nanda
+Em không muốn làm đứa trẻ trong trò chơi của thời gian thêm nữa</TextSample>
+  <TextSample sampleTime="00:01:35.440" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:01:35.540" xml:space="preserve">嬉しくて泣くのは悲しくて笑うのは | ureshikute naku no wa kanashikute warau no wa
+Hạnh phúc thì khóc mà đau khổ lại cười</TextSample>
+  <TextSample sampleTime="00:01:39.720" xml:space="preserve">君の心が君を追い越したんだよ | kimi no kokoro ga kimi wo oikoshitanda yo
+Là trái tim anh đã vượt qua chính mình rồi</TextSample>
+  <TextSample sampleTime="00:01:44.260" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:02:05.200" xml:space="preserve">星にまで願って手に入れたおもちゃも　部屋の隅っこに今転がってる | hoshi ni made negatte te ni ireta omocha mo heya no sumikko ni ima korogatteru
+Những món đồ chơi chúng ta có được khi chơi với những ngôi sao, bây giờ cũng lăn lóc trong góc phòng</TextSample>
+  <TextSample sampleTime="00:02:15.940" xml:space="preserve">叶えたい夢も今日で百個できたよ　たった一つといつか交換こしょう | kanaetai yume mo kyou de hyakko dekita yo tatta hitotsu to itsuka koukan koshou
+Những giấc mơ chúng ta muốn thực hiện nay đã được cả trăm lần rồi, chỉ một giấc mơ thôi khi nào hãy trao đổi cho nhau nhé</TextSample>
+  <TextSample sampleTime="00:02:27.140" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:02:33.000" xml:space="preserve">いつもはしゃべらないあの子に今日は　放課後「またあした」と声をかけた | itsumo wa shaberanai ano ko ni kyou wa houkagou mata ashite to koe wo kaketa
+Hôm nay trong giờ học em đã nói chuyện với anh chàng luôn im lặng rằng "Ngày mai gặp nhau nhé"</TextSample>
+  <TextSample sampleTime="00:02:43.060" xml:space="preserve">慣れないこともたまにならいいね　特にあなたが隣にいたら | narenai koto mo tama ni nara ii ne toku ni anata ga tonari ni itara
+Đôi khi làm những điều mới mẻ cũng tốt nhỉ, đặc biệt là khi có anh bên cạnh</TextSample>
+  <TextSample sampleTime="00:02:54.360" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:02:54.480" xml:space="preserve">もう少しだけでいい　あと少しだけでいい　もう少しだけでいいから | mou sukoshi dake de ii ato sukoshi dake de ii mou sukoshi dake de ii kara
+Chúng ta chỉ cần một chút nữa, một chút nữa thôi</TextSample>
+  <TextSample sampleTime="00:03:04.120" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:03:05.460" xml:space="preserve">もう少しだけでいい　あと少しだけでいい　もう少しだけでくっついていようよ | mou sukoshi dake de ii ato sukoshi dake de ii mou sukoshi dake kuttsuite iyou yo
+Chúng ta gần nhau thêm 1 chút nữa thôi và chỉ cần thêm một chút nữa, một chút nữa thôi nhé</TextSample>
+  <TextSample sampleTime="00:03:14.480" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:03:18.840" xml:space="preserve">僕らタイムフライヤー　君を知っていたんだ | bokura TAIMU FURAIYAA kimi wo shitte itan da
+Chúng ta là những người vượt thời gian, nhờ thế mà em biết đến anh</TextSample>
+  <TextSample sampleTime="00:03:24.160" xml:space="preserve">僕が僕の名前を覚えるより　ずっと前に  | boku ga boku no namae wo oboeru yori zutto mae ni
+Trước khi cả em nhớ tên của chính mình</TextSample>
+  <TextSample sampleTime="00:03:34.660" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:03:36.740" xml:space="preserve">君のいない世界にも　何かの意味はきっとあって | kimi no inai sekai ni mo nanika no imi wa kitto atte
+Em chắc rằng thế giới không có anh vẫn tồn tại nhiều ý nghĩa</TextSample>
+  <TextSample sampleTime="00:03:41.880" xml:space="preserve">でも君のいない世界など　夏休みのない八月のよう | demo kimi no inai sekai nado natsuyasumi no nai hachigatsu no you
+Những không có anh cũng như tháng 8 không có kỳ nghỉ hè</TextSample>
+  <TextSample sampleTime="00:03:47.760" xml:space="preserve">君のいない世界など　笑うことないサンタのよう | kimi no inai sekai nado warau koto nai SANTA no you
+Thế giới không có anh cũng như ông già Santa không biết cười</TextSample>
+  <TextSample sampleTime="00:03:53.280" xml:space="preserve">君のいない世界など | kimi no inai sekai nado
+Thế giới không có anh</TextSample>
+  <TextSample sampleTime="00:04:02.300" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:04:31.120" xml:space="preserve">僕らタイムフライヤー　時を駆け上がるクライマー | bokura TAIMU FURAIYAA　toki wo kakeagaru KURAIMAA
+Chúng ta là những người vượt và chạy xuyên thời gian</TextSample>
+  <TextSample sampleTime="00:04:35.640" xml:space="preserve">時の隠れん坊逸れっこはもういやなんだ | toki no kakurenbou hagurekko wa mou iya nanda
+Em chán nản khi bị lạc trong trò chơi của thời gian</TextSample>
+  <TextSample sampleTime="00:04:42.300" xml:space="preserve">なんでもないや　やっぱりなんでもないや | nandemo nai ya yappari nandemo nai ya
+Ừm sẽ không sao, sẽ chẳng sao nữa cả</TextSample>
+  <TextSample sampleTime="00:04:46.440" xml:space="preserve">今から行くよ | ima kara iku yo
+Em sẽ đến bên anh ngay bây giờ</TextSample>
+  <TextSample sampleTime="00:04:48.700" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:04:50.960" xml:space="preserve">僕らタイムフライヤー　時を駆け上がるクライマー | bokura TAIMU FURAIYAA　toki wo kakeagaru KURAIMAA
+Chúng ta là những người vượt và chạy xuyên thời gian</TextSample>
+  <TextSample sampleTime="00:04:55.680" xml:space="preserve">時の隠れん坊逸れっこはもういいよ | toki no kakurenbou hagurekko wa mou ii yo
+Em đã lạc lối đủ rồi</TextSample>
+  <TextSample sampleTime="00:05:01.980" xml:space="preserve">君は派手なクライヤー　その涙止めてみたいな | kimi wa hade na KURAIYAA sono namida tomete mitai na
+Anh là đứa trẻ mít ướt, em muốn ngăn những giọt nước mắt đó</TextSample>
+  <TextSample sampleTime="00:05:06.720" xml:space="preserve">だけど君は拒んだ　 | dakedo kimi wa kobanda
+Nhưng anh sẽ từ chối thôi</TextSample>
+  <TextSample sampleTime="00:05:09.580" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:05:09.700" xml:space="preserve">零れるままの涙を見て分かった | koboreru mama no namida wo mite wakatta
+Dù em muốn ngăn những giọt nước mắt đó</TextSample>
+  <TextSample sampleTime="00:05:13.080" xml:space="preserve">嬉しくて泣くのは悲しくて笑うのは | ureshikute naku no wa kanashikute warau no wa
+Khi hạnh phúc em khóc, khi đau khổ em lại cười</TextSample>
+  <TextSample sampleTime="00:05:17.180" xml:space="preserve">僕の心が僕を追い越したんだよ | boku no kokoro ga boku wo oikoshitandayo
+Trái tim em đã trưởng thành hơn cả bản thân rồi</TextSample>
+  <TextSample sampleTime="00:05:22.020" xml:space="preserve"></TextSample>
+</TextStream>

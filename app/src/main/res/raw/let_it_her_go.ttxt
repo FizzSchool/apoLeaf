@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextStream version="1.1">
+  <TextStreamHeader width="400" height="60" layer="0" translation_x="0" translation_y="0">
+    <TextSampleDescription horizontalJustification="center" verticalJustification="bottom" backColor="0 0 0 0" verticalText="no" fillTextRegion="no" continuousKaraoke="no" scroll="None">
+      <FontTable>
+        <FontTableEntry fontName="Sans" fontID="1"/>
+      </FontTable>
+      <TextBox top="0" left="0" bottom="60" right="400"/>
+      <Style styles="Normal" fontID="1" fontSize="18" color="ff ff ff ff"/>
+    </TextSampleDescription>
+  </TextStreamHeader>
+  <TextSample sampleTime="00:00:00.980" xml:space="preserve">|Let it go, let it go</TextSample>
+  <TextSample sampleTime="00:00:04.050" xml:space="preserve">|You only need the light when it's burning low</TextSample>
+  <TextSample sampleTime="00:00:07.600" xml:space="preserve">|Let it go, let it go</TextSample>
+  <TextSample sampleTime="00:00:11.020" xml:space="preserve">|You only miss the sun when it starts to snow</TextSample>
+  <TextSample sampleTime="00:00:14.840" xml:space="preserve">|And here I stand, and here I'll stay</TextSample>
+  <TextSample sampleTime="00:00:21.650" xml:space="preserve">|You only know you love her when you let her go</TextSample>
+  <TextSample sampleTime="00:00:25.640" xml:space="preserve">|The cold never bothered me anyway</TextSample>
+  <TextSample sampleTime="00:00:36.450" xml:space="preserve">|Staring at the bottom of your glass</TextSample>
+  <TextSample sampleTime="00:00:38.820" xml:space="preserve">|Hoping one day you'll make a dream last</TextSample>
+  <TextSample sampleTime="00:00:41.940" xml:space="preserve">|But dreams come slow and they go so fast</TextSample>
+  <TextSample sampleTime="00:00:46.120" xml:space="preserve">|You see her when you close your eyes</TextSample>
+  <TextSample sampleTime="00:00:51.930" xml:space="preserve">|Maybe one day you'll understand why</TextSample>
+  <TextSample sampleTime="00:00:55.550" xml:space="preserve">|Everything you touch surely dies</TextSample>
+  <TextSample sampleTime="00:01:00.040" xml:space="preserve">|Don’t let them in, don’t let them see</TextSample>
+  <TextSample sampleTime="00:01:07.280" xml:space="preserve">|Be the good guy you always have to be</TextSample>
+  <TextSample sampleTime="00:01:10.730" xml:space="preserve">|Conceal, don’t feel, don’t let them know</TextSample>
+  <TextSample sampleTime="00:01:14.270" xml:space="preserve">|Well, now they know Let it go, let it go</TextSample>
+  <TextSample sampleTime="00:01:23.130" xml:space="preserve">|You only need the light when it's burning low</TextSample>
+  <TextSample sampleTime="00:01:26.510" xml:space="preserve">|Let it go, let it go</TextSample>
+  <TextSample sampleTime="00:01:29.770" xml:space="preserve">|You only miss the sun when it starts to snow</TextSample>
+  <TextSample sampleTime="00:01:33.570" xml:space="preserve">|Cause here I stand, and here I'll stay</TextSample>
+  <TextSample sampleTime="00:01:40.310" xml:space="preserve">|You only know you love her when you let her go</TextSample>
+  <TextSample sampleTime="00:01:44.440" xml:space="preserve">|The cold never bothered me anyway</TextSample>
+  <TextSample sampleTime="00:01:51.250" xml:space="preserve">|Let it go, let her go</TextSample>
+  <TextSample sampleTime="00:02:01.110" xml:space="preserve">|You only need the light when it's burning low</TextSample>
+  <TextSample sampleTime="00:02:05.540" xml:space="preserve">|You only miss the sun when it starts to snow</TextSample>
+  <TextSample sampleTime="00:02:09.650" xml:space="preserve">|You only know you love her when you let her go</TextSample>
+  <TextSample sampleTime="00:02:15.090" xml:space="preserve">|You only know you've been high when you're feeling low</TextSample>
+  <TextSample sampleTime="00:02:19.440" xml:space="preserve">|You only hate the road when you’re missin' home</TextSample>
+  <TextSample sampleTime="00:02:22.940" xml:space="preserve">|You only know you love her when you let her go</TextSample>
+  <TextSample sampleTime="00:02:27.450" xml:space="preserve">|And now you know Let it go, let it go</TextSample>
+  <TextSample sampleTime="00:02:37.080" xml:space="preserve">|You only need the light when it's burning low</TextSample>
+  <TextSample sampleTime="00:02:39.870" xml:space="preserve">|Let it go, let it go</TextSample>
+  <TextSample sampleTime="00:02:44.050" xml:space="preserve">|You only miss the sun when it starts to snow</TextSample>
+  <TextSample sampleTime="00:02:47.730" xml:space="preserve">|Cause here I stand, and here I'll stay</TextSample>
+  <TextSample sampleTime="00:02:54.150" xml:space="preserve">|You only know you love her when you let her go</TextSample>
+  <TextSample sampleTime="00:03:00.150" xml:space="preserve">|dududu...</TextSample>
+  <TextSample sampleTime="00:03:16.260" xml:space="preserve">|The cold never bothered me anyway</TextSample>
+  <TextSample sampleTime="00:03:21.680" xml:space="preserve"></TextSample>
+</TextStream>

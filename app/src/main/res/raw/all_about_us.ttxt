@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextStream version="1.1">
+  <TextStreamHeader width="400" height="60" layer="0" translation_x="0" translation_y="0">
+    <TextSampleDescription horizontalJustification="center" verticalJustification="bottom" backColor="0 0 0 0" verticalText="no" fillTextRegion="no" continuousKaraoke="no" scroll="None">
+      <FontTable>
+        <FontTableEntry fontName="Sans" fontID="1"/>
+      </FontTable>
+      <TextBox top="0" left="0" bottom="60" right="400"/>
+      <Style styles="Normal" fontID="1" fontSize="18" color="ff ff ff ff"/>
+    </TextSampleDescription>
+  </TextStreamHeader>
+  <TextSample sampleTime="00:00:08.200" xml:space="preserve">|Take my hand, I’ll teach you to dance.</TextSample>
+  <TextSample sampleTime="00:00:11.980" xml:space="preserve">|I’ll spin you around, won’t let you fall down.</TextSample>
+  <TextSample sampleTime="00:00:16.700" xml:space="preserve">|Would you let me lead,</TextSample>
+  <TextSample sampleTime="00:00:18.700" xml:space="preserve">|you can step on my feet.</TextSample>
+  <TextSample sampleTime="00:00:20.700" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:21.140" xml:space="preserve">|Give it a try,</TextSample>
+  <TextSample sampleTime="00:00:22.700" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:23.280" xml:space="preserve">|it’ll be alright.</TextSample>
+  <TextSample sampleTime="00:00:25.460" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:26.180" xml:space="preserve">|The room’s hush, hush,</TextSample>
+  <TextSample sampleTime="00:00:27.140" xml:space="preserve">|And now’s our moment.</TextSample>
+  <TextSample sampleTime="00:00:28.480" xml:space="preserve">|Take it in feel it all and hold it.</TextSample>
+  <TextSample sampleTime="00:00:30.660" xml:space="preserve">|Eyes on you, eyes on me.</TextSample>
+  <TextSample sampleTime="00:00:32.540" xml:space="preserve">|We’re doing this right.</TextSample>
+  <TextSample sampleTime="00:00:34.540" xml:space="preserve">|Cause lovers dance when they’re feeling in love.</TextSample>
+  <TextSample sampleTime="00:00:37.220" xml:space="preserve">|Spotlight shinning, it’s all about us.</TextSample>
+  <TextSample sampleTime="00:00:39.160" xml:space="preserve">|It’s oh, oh, oh, oh, all about uh, uh, uh, uh, us.</TextSample>
+  <TextSample sampleTime="00:00:43.440" xml:space="preserve">|And every heart in the room will melt,</TextSample>
+  <TextSample sampleTime="00:00:45.700" xml:space="preserve">|This is a feeling I’ve never felt but,</TextSample>
+  <TextSample sampleTime="00:00:48.380" xml:space="preserve">|It’s oh, oh, all about us.</TextSample>
+  <TextSample sampleTime="00:00:51.420" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:52.100" xml:space="preserve">|Suddenly,</TextSample>
+  <TextSample sampleTime="00:00:54.020" xml:space="preserve">|I’m feeling brave.</TextSample>
+  <TextSample sampleTime="00:00:55.720" xml:space="preserve">|I don’t know what’s got into me,</TextSample>
+  <TextSample sampleTime="00:00:57.960" xml:space="preserve">|Why I feel this way.</TextSample>
+  <TextSample sampleTime="00:01:00.320" xml:space="preserve">|Can we dance,</TextSample>
+  <TextSample sampleTime="00:01:02.480" xml:space="preserve">|real slow?</TextSample>
+  <TextSample sampleTime="00:01:04.720" xml:space="preserve">|Can I hold you,</TextSample>
+  <TextSample sampleTime="00:01:06.720" xml:space="preserve">|can I hold you close?</TextSample>
+  <TextSample sampleTime="00:01:09.820" xml:space="preserve">|The room’s hush, hush, and now's our moment</TextSample>
+  <TextSample sampleTime="00:01:12.040" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:01:12.240" xml:space="preserve">|Take it in feel it all and hold it.</TextSample>
+  <TextSample sampleTime="00:01:14.160" xml:space="preserve">|Eyes on you, eyes on me. We’re doing this right.</TextSample>
+  <TextSample sampleTime="00:01:17.920" xml:space="preserve">|Cause lovers dance when they’re feeling in love.</TextSample>
+  <TextSample sampleTime="00:01:20.680" xml:space="preserve">|Spotlight shinning, it’s all about us.</TextSample>
+  <TextSample sampleTime="00:01:22.620" xml:space="preserve">|It’s oh, oh, oh, oh, all about uh, uh, uh, uh, us.</TextSample>
+  <TextSample sampleTime="00:01:26.900" xml:space="preserve">|And every heart in the room will melt,</TextSample>
+  <TextSample sampleTime="00:01:29.140" xml:space="preserve">|This is a feeling I’ve never felt but,</TextSample>
+  <TextSample sampleTime="00:01:31.960" xml:space="preserve">|It’s oh, oh, all about us.</TextSample>
+  <TextSample sampleTime="00:01:35.280" xml:space="preserve">|Do you hear that, love?</TextSample>
+  <TextSample sampleTime="00:01:36.880" xml:space="preserve">|They’re playing our song.</TextSample>
+  <TextSample sampleTime="00:01:38.160" xml:space="preserve">|Do you think we’re ready?</TextSample>
+  <TextSample sampleTime="00:01:39.080" xml:space="preserve">|Oh I’m really feeling it.</TextSample>
+  <TextSample sampleTime="00:01:40.060" xml:space="preserve">|Do you hear that, love?</TextSample>
+  <TextSample sampleTime="00:01:45.740" xml:space="preserve">|They’re playing our song.</TextSample>
+  <TextSample sampleTime="00:01:46.840" xml:space="preserve">|Do you think we’re ready yet?</TextSample>
+  <TextSample sampleTime="00:01:47.880" xml:space="preserve">|Love I’m really feeling it.</TextSample>
+  <TextSample sampleTime="00:01:48.840" xml:space="preserve">|Do you hear that, love?</TextSample>
+  <TextSample sampleTime="00:01:54.280" xml:space="preserve">|They’re playing our song.</TextSample>
+  <TextSample sampleTime="00:01:55.520" xml:space="preserve">|Do you think we’re ready yet?</TextSample>
+  <TextSample sampleTime="00:01:56.520" xml:space="preserve">|Love I’m really feeling it.</TextSample>
+  <TextSample sampleTime="00:01:57.540" xml:space="preserve">|Do you hear that, love?</TextSample>
+  <TextSample sampleTime="00:02:01.920" xml:space="preserve">|Lovers dance when they’re feeling in love.</TextSample>
+  <TextSample sampleTime="00:02:04.220" xml:space="preserve">|Spotlight shinning, it’s all about us.</TextSample>
+  <TextSample sampleTime="00:02:06.280" xml:space="preserve">|It’s all about us</TextSample>
+  <TextSample sampleTime="00:02:08.280" xml:space="preserve">|It's all all all</TextSample>
+  <TextSample sampleTime="00:02:09.400" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:02:10.200" xml:space="preserve">|Every heart in the room will melt,</TextSample>
+  <TextSample sampleTime="00:02:12.920" xml:space="preserve">|This is a feeling I’ve never felt, but</TextSample>
+  <TextSample sampleTime="00:02:15.420" xml:space="preserve">|It’s all, all about us.</TextSample>
+  <TextSample sampleTime="00:02:18.300" xml:space="preserve">|Cause lovers dance when they’re feeling in love.</TextSample>
+  <TextSample sampleTime="00:02:21.560" xml:space="preserve">|Spotlight shinning, it’s all about us.</TextSample>
+  <TextSample sampleTime="00:02:23.560" xml:space="preserve">|It’s oh, oh, oh, oh, all about uh, uh, uh, uh, us.</TextSample>
+  <TextSample sampleTime="00:02:25.880" xml:space="preserve">|(hey-ey hey)</TextSample>
+  <TextSample sampleTime="00:02:28.280" xml:space="preserve">|And every heart in the room will melt,</TextSample>
+  <TextSample sampleTime="00:02:30.280" xml:space="preserve">|This is a feeling I’ve never felt but,</TextSample>
+  <TextSample sampleTime="00:02:32.820" xml:space="preserve">|It’s oh, oh, all,</TextSample>
+  <TextSample sampleTime="00:02:34.340" xml:space="preserve">|It’s all about us.</TextSample>
+  <TextSample sampleTime="00:02:39.500" xml:space="preserve">|@FTS</TextSample>
+  <TextSample sampleTime="00:02:41.500" xml:space="preserve"></TextSample>
+</TextStream>

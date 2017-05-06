@@ -20,7 +20,7 @@
                 android:id="@+id/imageViewTest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_paw_print_" />
+                app:srcCompat="@drawable/cat_paw_no_shadow" />
         </RelativeLayout>
 
     </RelativeLayout>

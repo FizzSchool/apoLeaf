@@ -3,12 +3,19 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:drawable="@color/colorPrimary"/>
+        android:drawable="@color/colorPrimary">
+    </item>
+
 
     <item
-        android:id="@+id/iconloader"
-        android:gravity="center"
-        android:drawable="@drawable/ic_paw_print">
+        android:id="@+id/iconloader">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/cat_paw"></bitmap>
     </item>
+
+
+
+
 
 </layer-list>

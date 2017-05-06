@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextStream version="1.1">
+  <TextStreamHeader width="400" height="60" layer="0" translation_x="0" translation_y="0">
+    <TextSampleDescription horizontalJustification="center" verticalJustification="bottom" backColor="0 0 0 0" verticalText="no" fillTextRegion="no" continuousKaraoke="no" scroll="None">
+      <FontTable>
+        <FontTableEntry fontName="Sans" fontID="1"/>
+      </FontTable>
+      <TextBox top="0" left="0" bottom="60" right="400"/>
+      <Style styles="Normal" fontID="1" fontSize="18" color="ff ff ff ff"/>
+    </TextSampleDescription>
+  </TextStreamHeader>
+  <TextSample sampleTime="00:00:01.550" xml:space="preserve">IF - Kana Nishino </TextSample>
+  <TextSample sampleTime="00:00:19.940" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:23.200" xml:space="preserve">もしあの日の雨が|moshi ano hi no ame
+    Nếu cơn mưa ngày đó </TextSample>
+  <TextSample sampleTime="00:00:26.630" xml:space="preserve">止んでいたなら|ga yande ita nara
+    Ngừng rơi</TextSample>
+  <TextSample sampleTime="00:00:31.320" xml:space="preserve">きっとすれ違っていただけかも|kitto surechigatte ita dake kamo
+    Thì chắc tôi chỉ lướt qua bạn</TextSample>
+  <TextSample sampleTime="00:00:38.880" xml:space="preserve">いつも通りの時間に|itsumo toori no jikan ni
+    Nếu chuyến xe bus đó </TextSample>
+  <TextSample sampleTime="00:00:42.460" xml:space="preserve">バスが来てたなら|BASU ga kiteta nara
+    vẫn luôn đúng giờ</TextSample>
+  <TextSample sampleTime="00:00:46.580" xml:space="preserve">君とは出会うことがなかったんだね|kimi towa deau koto ga nakattanda ne
+    Thì có lẽ tôi chẳng gặp được bạn nhỉ</TextSample>
+  <TextSample sampleTime="00:00:54.600" xml:space="preserve">もしも少しでも|moshimo sukoshi demo
+    Nếu khoảnh khắc ấy khác đi</TextSample>
+  <TextSample sampleTime="00:00:58.370" xml:space="preserve">あの瞬間がずれてたら|no shunkan ga zurete tara
+    dù chỉ là một chút thôi</TextSample>
+  <TextSample sampleTime="00:01:02.060" xml:space="preserve">二人は違った運命を辿ってしまってた|futari wa chigatta unmei wo tadotte shimatteta
+    Thì định mệnh của chúng ta đã rẽ 2 ngả khác nhau</TextSample>
+  <TextSample sampleTime="00:01:09.550" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:01:09.770" xml:space="preserve">君と同じ未来を|kimi to onaji mirai o
+    Tôi luôn ước </TextSample>
+  <TextSample sampleTime="00:01:14.010" xml:space="preserve">ずっと一緒に見ていたい|zutto issho ni mite itai
+    Được gắn kết tương lai với bạn</TextSample>
+  <TextSample sampleTime="00:01:17.760" xml:space="preserve">同じ星を　同じ場所で|onaji hoshi o onaji basho de
+    Cùng ngắm những vì sao</TextSample>
+  <TextSample sampleTime="00:01:21.000" xml:space="preserve">見つめていようよ|mitsumete iyou yo
+    Cùng ở một nơi</TextSample>
+  <TextSample sampleTime="00:01:25.110" xml:space="preserve">君の描く未来に|kimi no egaku mirai ni
+    Trong tương lai mà bạn đã hình dung</TextSample>
+  <TextSample sampleTime="00:01:28.980" xml:space="preserve">私はいるのかな|watashi wa iru no kana
+    Tôi có hiện diện trong đó không?</TextSample>
+  <TextSample sampleTime="00:01:32.920" xml:space="preserve">同じ空を　同じ想いで|onaji sora o onaji omoi de
+    Vì tôi cũng muốn ngắm nhìn cùng bầu trời ấy</TextSample>
+  <TextSample sampleTime="00:01:36.680" xml:space="preserve">見上げていたいよ|miagete itai yo
+    và cùng chia sẻ cảm xúc với nhau</TextSample>
+  <TextSample sampleTime="00:01:40.750" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:01:56.000" xml:space="preserve">口癖や仕草も|kuchiguse ya shigusa mo
+    Cái cách mà chúng ta nói chuyện thật giống nhau</TextSample>
+  <TextSample sampleTime="00:01:59.990" xml:space="preserve">よく似てきた二人|yoku nite kita futari
+    Làm việc cũng vậy</TextSample>
+  <TextSample sampleTime="00:02:04.090" xml:space="preserve">まるでずっと昔から知ってるみたいだね|marude zutto mukashi kara shitteru mitai da ne
+    Như thể 2 ta đã quen biết nhau từ lâu rồi</TextSample>
+  <TextSample sampleTime="00:02:11.330" xml:space="preserve">同時にメールしたり|douji ni MEERU shitari
+    gửi mail cho nhau cùng lúc</TextSample>
+  <TextSample sampleTime="00:02:15.750" xml:space="preserve">同じこと思ったり|onaji koto omottari
+    và cùng nghĩ về một điều gì đó</TextSample>
+  <TextSample sampleTime="00:02:19.590" xml:space="preserve">赤い糸で引き寄せられてるのかも|akai ito de hiki yoserareteru no kamo
+    Có lẽ sợi tơ hồng đã gắn hai ta lại với nhau</TextSample>
+  <TextSample sampleTime="00:02:27.130" xml:space="preserve">偶然は最初から|guuzen wa saisho kara
+    Hai đứa mình hợp nhau cứ như</TextSample>
+  <TextSample sampleTime="00:02:30.670" xml:space="preserve">もう決まってたみたいに|mou kimatteta mitai ni
+    Đó là ngày định mệnh được xếp sẵn ngay từ giây phút đầu tiên</TextSample>
+  <TextSample sampleTime="00:02:34.280" xml:space="preserve">重なった二人は運命って信じているよ|kasanatta futari wa unmei tte shinjite iru yo
+    Thế nên tôi tin 2 chúng ta là dành cho nhau, phải ở bên nhau</TextSample>
+  <TextSample sampleTime="00:02:42.820" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:02:45.330" xml:space="preserve">君の描く未来に|kimi no egaku mirai ni
+    Trong tương lai bạn nghĩ tới</TextSample>
+  <TextSample sampleTime="00:02:49.060" xml:space="preserve">私はいるのかな|watashi wa iru no kana
+    Liệu có tôi trong đó không</TextSample>
+  <TextSample sampleTime="00:02:53.100" xml:space="preserve">同じ空を　同じ想いで|onaji sora o onaji omoi de
+    Vì tôi cũng muốn ngắm bầu trời ấy</TextSample>
+  <TextSample sampleTime="00:02:56.470" xml:space="preserve">見上げていたいよ|miagete itai yo
+      Và cùng nhau chia sẻ cảm xúc</TextSample>
+  <TextSample sampleTime="00:03:00.530" xml:space="preserve">君と同じ未来を|kimi to onaji mirai o
+      Tôi luôn ước</TextSample>
+  <TextSample sampleTime="00:03:04.370" xml:space="preserve">ずっと一緒に見ていたい|zutto issho ni mite itai
+      Được gắn kết tương lai cùng bạn</TextSample>
+  <TextSample sampleTime="00:03:08.280" xml:space="preserve">同じ星を　同じ場所で|onaji hoshi o onaji basho de
+      Và cùng nhau</TextSample>
+  <TextSample sampleTime="00:03:12.210" xml:space="preserve">見つめていようよ|mitsumete iyou yo
+      ngắm nhìn những ngôi sao</TextSample>
+  <TextSample sampleTime="00:03:16.030" xml:space="preserve">君の描く未来に|kimi no egaku mirai ni
+      Trong tương lai bạn nghĩ tới</TextSample>
+  <TextSample sampleTime="00:03:19.900" xml:space="preserve">私はいるのかな|watashi wa iru no kana
+      Liệu có tôi trong đó không</TextSample>
+  <TextSample sampleTime="00:03:23.860" xml:space="preserve">同じ空を　同じ想いで|onaji sora o onaji omoi de
+      Vì tôi cũng muốn ngắm bầu trời ấy</TextSample>
+  <TextSample sampleTime="00:03:27.790" xml:space="preserve">見上げていたいよ|miagete itai yo
+      Và cùng nhau chia sẻ những cảm xúc</TextSample>
+  <TextSample sampleTime="00:03:31.010" xml:space="preserve">たとえば涙の日も|tatoeba namida no hi mo
+      Ta sẽ luôn ở bên nhau</TextSample>
+  <TextSample sampleTime="00:03:35.090" xml:space="preserve">晴れの日も二人で|hare no hi mo futari de
+      Cùng tiến lên con đường dài phía trước</TextSample>
+  <TextSample sampleTime="00:03:38.760" xml:space="preserve">同じこと思ったり|onaji michi o itsumademo
+      Dù là ngày mưa hay nắng</TextSample>
+  <TextSample sampleTime="00:03:42.670" xml:space="preserve">手を繋いで歩けますように|TE o TSUNAIDE ARUKEMASU you ni
+      Dù là ngày mưa hay nắng</TextSample>
+  <TextSample sampleTime="00:03:49.470" xml:space="preserve">君と同じ未来を|kimi to onaji mirai o
+      Tôi luôn ước</TextSample>
+  <TextSample sampleTime="00:03:53.040" xml:space="preserve">ずっと一緒に見ていたい|zutto issho ni mite itai
+      Được gắn kết tương lai với bạn</TextSample>
+  <TextSample sampleTime="00:03:56.930" xml:space="preserve">同じ星を　同じ場所で|onaji hoshi o onaji basho de
+      Và cùng nhau ngắm những vì sao</TextSample>
+  <TextSample sampleTime="00:04:00.900" xml:space="preserve">見つめていようよ|mitsumete iyou yo
+      cùng ở một nơi</TextSample>
+  <TextSample sampleTime="00:04:04.680" xml:space="preserve">君の描く未来に|kimi no egaku mirai ni
+      Trong tương lai mà bạn hình dung</TextSample>
+  <TextSample sampleTime="00:04:08.560" xml:space="preserve">私はいるのかな|watashi wa iru no kana
+      Tôi có hiện diện trong đó không</TextSample>
+  <TextSample sampleTime="00:04:12.520" xml:space="preserve">同じ空を　同じ想いで|onaji sora o onaji omoi de
+      Vì tôi cũng muốn cùng ngắm bầu trời ấy</TextSample>
+  <TextSample sampleTime="00:04:16.490" xml:space="preserve">見上げていたいよ | miagete itai yo
+      Và chia sẻ cảm xúc cùng nhau</TextSample>
+  <TextSample sampleTime="00:04:20.890" xml:space="preserve"></TextSample>
+</TextStream>

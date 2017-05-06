@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextStream version="1.1">
+  <TextStreamHeader width="400" height="60" layer="0" translation_x="0" translation_y="0">
+    <TextSampleDescription horizontalJustification="center" verticalJustification="bottom" backColor="0 0 0 0" verticalText="no" fillTextRegion="no" continuousKaraoke="no" scroll="None">
+      <FontTable>
+        <FontTableEntry fontName="Sans" fontID="1"/>
+      </FontTable>
+      <TextBox top="0" left="0" bottom="60" right="400"/>
+      <Style styles="Normal" fontID="1" fontSize="18" color="ff ff ff ff"/>
+    </TextSampleDescription>
+  </TextStreamHeader>
+  <TextSample sampleTime="00:00:01.230" xml:space="preserve">| Bright - 1 year 2 months 20 days</TextSample>
+  <TextSample sampleTime="00:00:01.550" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:11.910" xml:space="preserve">|Haru natsu aki fuyu kisetsu meguri kuru</TextSample>
+  <TextSample sampleTime="00:00:19.050" xml:space="preserve">|Naze naze koi ni wa owari ga aru no</TextSample>
+  <TextSample sampleTime="00:00:27.130" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:28.130" xml:space="preserve">|Ichinen nikagetsu to hatsuka</TextSample>
+  <TextSample sampleTime="00:00:31.660" xml:space="preserve">|Hontou ni atto iu ma datta</TextSample>
+  <TextSample sampleTime="00:00:35.640" xml:space="preserve">|Kimi ni aete yokatta suki ni natte yokatta</TextSample>
+  <TextSample sampleTime="00:00:44.150" xml:space="preserve">|Yasashiku shinai de</TextSample>
+  <TextSample sampleTime="00:00:46.120" xml:space="preserve">|Sayonara chanto ienaku nacchau kara</TextSample>
+  <TextSample sampleTime="00:00:52.330" xml:space="preserve">|Gomen nante ayamaranai de</TextSample>
+  <TextSample sampleTime="00:00:56.480" xml:space="preserve">|Dakara nee hayaku... naichau mae ni...</TextSample>
+  <TextSample sampleTime="00:01:06.980" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:01:10.230" xml:space="preserve">|Hitori ga samishii no wa</TextSample>
+  <TextSample sampleTime="00:01:12.900" xml:space="preserve">|Atari mae nan dakedo</TextSample>
+  <TextSample sampleTime="00:01:17.620" xml:space="preserve">|Futari ga samishii no wa</TextSample>
+  <TextSample sampleTime="00:01:20.980" xml:space="preserve">|Gomen hajimete nanda</TextSample>
+  <TextSample sampleTime="00:01:24.640" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:01:25.010" xml:space="preserve">|Kagi wa posuto ni iretoku yo</TextSample>
+  <TextSample sampleTime="00:01:28.360" xml:space="preserve">|Koborechai sou na omoide to</TextSample>
+  <TextSample sampleTime="00:01:33.150" xml:space="preserve">|Tsunaideta te hanasenai</TextSample>
+  <TextSample sampleTime="00:01:37.630" xml:space="preserve">|Sonna yowai hito wa dare...</TextSample>
+  <TextSample sampleTime="00:01:42.520" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:01:42.770" xml:space="preserve">|Ichinen nikagetsu to hatsuka</TextSample>
+  <TextSample sampleTime="00:01:46.380" xml:space="preserve">|Hontou ni atto iu ma datta</TextSample>
+  <TextSample sampleTime="00:01:50.610" xml:space="preserve">|Kimi ni aete yokatta suki ni natte yokatta</TextSample>
+  <TextSample sampleTime="00:01:58.490" xml:space="preserve">|Yasashiku shinai de</TextSample>
+  <TextSample sampleTime="00:02:00.410" xml:space="preserve">|Sayonara chanto ienaku nacchau kara</TextSample>
+  <TextSample sampleTime="00:02:06.620" xml:space="preserve">|Gomen nante ayamaranai de</TextSample>
+  <TextSample sampleTime="00:02:10.470" xml:space="preserve">|Dakara nee hayaku... naichau mae ni...</TextSample>
+  <TextSample sampleTime="00:02:24.700" xml:space="preserve">|Kitsukeba ne nandatte</TextSample>
+  <TextSample sampleTime="00:02:27.240" xml:space="preserve">|Futari bun eranderu</TextSample>
+  <TextSample sampleTime="00:02:32.410" xml:space="preserve">|Sugu te ni totte miru kedo</TextSample>
+  <TextSample sampleTime="00:02:35.450" xml:space="preserve">|Sokka mou iranain da</TextSample>
+  <TextSample sampleTime="00:02:38.930" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:02:39.180" xml:space="preserve">|Okashii desho? Okashii kedo</TextSample>
+  <TextSample sampleTime="00:02:42.850" xml:space="preserve">|Uso no hitotsu demo tsunakucha</TextSample>
+  <TextSample sampleTime="00:02:48.320" xml:space="preserve">|Tsunai deta te hanasenai</TextSample>
+  <TextSample sampleTime="00:02:52.230" xml:space="preserve">|Watashi wa mou daijyoubu</TextSample>
+  <TextSample sampleTime="00:02:57.080" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:02:57.390" xml:space="preserve">|Ichinen nikagetsu to hatsuka</TextSample>
+  <TextSample sampleTime="00:03:01.240" xml:space="preserve">|Kimi wa oboeteimasu ka?</TextSample>
+  <TextSample sampleTime="00:03:04.830" xml:space="preserve">|Hijimete deatta hi wo kimochi wo tsutaeru hi wo</TextSample>
+  <TextSample sampleTime="00:03:13.280" xml:space="preserve">|Dakedo kyou no hi wa sayonara</TextSample>
+  <TextSample sampleTime="00:03:17.410" xml:space="preserve">|Nani ga tarinakatta no kana?</TextSample>
+  <TextSample sampleTime="00:03:21.080" xml:space="preserve">|Gomen nante ayamaranai de</TextSample>
+  <TextSample sampleTime="00:03:25.790" xml:space="preserve">|Sono koe ni watashi... koi shitan jya nai</TextSample>
+  <TextSample sampleTime="00:03:32.070" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:03:33.110" xml:space="preserve">|Hontou wa hanaretakunai yo</TextSample>
+  <TextSample sampleTime="00:03:36.900" xml:space="preserve">|Hontou wa daijyoubu jyanai yo</TextSample>
+  <TextSample sampleTime="00:03:40.320" xml:space="preserve">|Usa da yo tte baga da na tte</TextSample>
+  <TextSample sampleTime="00:03:44.110" xml:space="preserve">|Waratte hoshii yo</TextSample>
+  <TextSample sampleTime="00:03:49.330" xml:space="preserve">|Demo kimi no kokoro ni watashi wa inai</TextSample>
+  <TextSample sampleTime="00:03:52.870" xml:space="preserve">|Saigo ni semete say goodbye</TextSample>
+  <TextSample sampleTime="00:03:56.340" xml:space="preserve">|Jyanakya kitto watashi kitto</TextSample>
+  <TextSample sampleTime="00:04:00.310" xml:space="preserve">|Kimi wo hikitomechau kara</TextSample>
+  <TextSample sampleTime="00:04:04.850" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:04:05.220" xml:space="preserve">|Ichinen nikagetsu to hatsuka</TextSample>
+  <TextSample sampleTime="00:04:10.010" xml:space="preserve">|Hontou ni atto iu ma data</TextSample>
+  <TextSample sampleTime="00:04:13.670" xml:space="preserve">|Kimi ni aete yokatta suki ni natte yokatta</TextSample>
+  <TextSample sampleTime="00:04:21.430" xml:space="preserve">|Yasashiku shinai de</TextSample>
+  <TextSample sampleTime="00:04:24.040" xml:space="preserve">|Sayonara chanto ienaku nacchau kara</TextSample>
+  <TextSample sampleTime="00:04:29.390" xml:space="preserve">|Gomen nante ayamaranai de</TextSample>
+  <TextSample sampleTime="00:04:34.050" xml:space="preserve">|Dakara nee hayaku... naichau mae ni...</TextSample>
+  <TextSample sampleTime="00:04:35.970" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:04:55.230" xml:space="preserve">|Haru natsu aki fuyu kisetsu meguri kuru</TextSample>
+  <TextSample sampleTime="00:05:02.740" xml:space="preserve">|Naze naze koi ni wa owari ga aru no</TextSample>
+  <TextSample sampleTime="00:05:04.740" xml:space="preserve"></TextSample>
+</TextStream>

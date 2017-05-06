@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextStream version="1.1">
+  <TextStreamHeader width="400" height="60" layer="0" translation_x="0" translation_y="0">
+    <TextSampleDescription horizontalJustification="center" verticalJustification="bottom" backColor="0 0 0 0" verticalText="no" fillTextRegion="no" continuousKaraoke="no" scroll="None">
+      <FontTable>
+        <FontTableEntry fontName="Sans" fontID="1"/>
+      </FontTable>
+      <TextBox top="0" left="0" bottom="60" right="400"/>
+      <Style styles="Normal" fontID="1" fontSize="18" color="ff ff ff ff"/>
+    </TextSampleDescription>
+  </TextStreamHeader>
+  <TextSample sampleTime="00:00:27.940" xml:space="preserve">|I'm breathing in</TextSample>
+  <TextSample sampleTime="00:00:31.160" xml:space="preserve">|And breaking down</TextSample>
+  <TextSample sampleTime="00:00:32.910" xml:space="preserve">|I feel my time is running out</TextSample>
+  <TextSample sampleTime="00:00:36.410" xml:space="preserve">|The fire in my heart will burn me to the ground</TextSample>
+  <TextSample sampleTime="00:00:43.410" xml:space="preserve">|I did my part</TextSample>
+  <TextSample sampleTime="00:00:45.230" xml:space="preserve">|I tried my best</TextSample>
+  <TextSample sampleTime="00:00:47.040" xml:space="preserve">|The things I'm fighting to protect</TextSample>
+  <TextSample sampleTime="00:00:50.480" xml:space="preserve">|Always shatter into pieces in the end</TextSample>
+  <TextSample sampleTime="00:00:55.980" xml:space="preserve">|Ooh</TextSample>
+  <TextSample sampleTime="00:00:57.540" xml:space="preserve">|I'm broken and I'm barely breathing</TextSample>
+  <TextSample sampleTime="00:01:01.270" xml:space="preserve">|I'm falling 'cause my heart stopped beating</TextSample>
+  <TextSample sampleTime="00:01:04.580" xml:space="preserve">|If this is how it all goes down tonight</TextSample>
+  <TextSample sampleTime="00:01:08.080" xml:space="preserve">|If this is how you bring me back to life</TextSample>
+  <TextSample sampleTime="00:01:14.890" xml:space="preserve">|This is what it's like when we collide</TextSample>
+  <TextSample sampleTime="00:01:21.890" xml:space="preserve">|If this is how you bring me back to life</TextSample>
+  <TextSample sampleTime="00:01:26.570" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:01:32.710" xml:space="preserve">|I'm up in blood, abundant dry</TextSample>
+  <TextSample sampleTime="00:01:36.330" xml:space="preserve">|My heart's been beating all the time</TextSample>
+  <TextSample sampleTime="00:01:39.960" xml:space="preserve">|To help this broken body live another night</TextSample>
+  <TextSample sampleTime="00:01:46.020" xml:space="preserve">|Battlecry, is the damage done?</TextSample>
+  <TextSample sampleTime="00:01:50.020" xml:space="preserve">|Who has lost and who has won?</TextSample>
+  <TextSample sampleTime="00:01:53.710" xml:space="preserve">|Who will be there when my life's support is gone?</TextSample>
+  <TextSample sampleTime="00:02:00.650" xml:space="preserve">|I'm broken and I'm barely breathing</TextSample>
+  <TextSample sampleTime="00:02:04.330" xml:space="preserve">|I'm falling 'cause my heart stopped beating</TextSample>
+  <TextSample sampleTime="00:02:07.890" xml:space="preserve">|If this is how it all goes down tonight</TextSample>
+  <TextSample sampleTime="00:02:11.390" xml:space="preserve">|If this is how you bring me back to life</TextSample>
+  <TextSample sampleTime="00:02:18.460" xml:space="preserve">|This is what it's like when we collide</TextSample>
+  <TextSample sampleTime="00:02:25.460" xml:space="preserve">|If this is how you bring me back to life</TextSample>
+  <TextSample sampleTime="00:02:29.210" xml:space="preserve">|I'm breathing</TextSample>
+  <TextSample sampleTime="00:02:31.650" xml:space="preserve">|I lost all feelings</TextSample>
+  <TextSample sampleTime="00:02:35.030" xml:space="preserve">|I'm barely breathing</TextSample>
+  <TextSample sampleTime="00:02:38.400" xml:space="preserve">|Still holding on</TextSample>
+  <TextSample sampleTime="00:02:42.400" xml:space="preserve">|I'm broken and I'm barely breathing</TextSample>
+  <TextSample sampleTime="00:02:46.530" xml:space="preserve">|I'm falling 'cause my heart stopped beating</TextSample>
+  <TextSample sampleTime="00:02:50.340" xml:space="preserve">|If this is how it all goes down tonight</TextSample>
+  <TextSample sampleTime="00:02:53.910" xml:space="preserve">|If this is how you bring me back to life</TextSample>
+  <TextSample sampleTime="00:02:57.250" xml:space="preserve">|I'm broken and I'm barely breathing</TextSample>
+  <TextSample sampleTime="00:03:00.750" xml:space="preserve">|I'm falling 'cause my heart stopped beating</TextSample>
+  <TextSample sampleTime="00:03:04.370" xml:space="preserve">|If this is how it all goes down tonight</TextSample>
+  <TextSample sampleTime="00:03:08.060" xml:space="preserve">|If this is how you bring me back to life</TextSample>
+  <TextSample sampleTime="00:03:11.750" xml:space="preserve">|I'm broken and I'm barely breathing</TextSample>
+  <TextSample sampleTime="00:03:14.810" xml:space="preserve">|I'm falling 'cause my heart stopped beating</TextSample>
+  <TextSample sampleTime="00:03:18.510" xml:space="preserve">|This is what it's like when we collide</TextSample>
+  <TextSample sampleTime="00:03:22.130" xml:space="preserve">|If this is how you bring me back to life</TextSample>
+  <TextSample sampleTime="00:03:24.130" xml:space="preserve"></TextSample>
+</TextStream>

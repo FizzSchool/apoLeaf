@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextStream version="1.1">
+  <TextStreamHeader width="400" height="60" layer="0" translation_x="0" translation_y="0">
+    <TextSampleDescription horizontalJustification="center" verticalJustification="bottom" backColor="0 0 0 0" verticalText="no" fillTextRegion="no" continuousKaraoke="no" scroll="None">
+      <FontTable>
+        <FontTableEntry fontName="Sans" fontID="1"/>
+      </FontTable>
+      <TextBox top="0" left="0" bottom="60" right="400"/>
+      <Style styles="Normal" fontID="1" fontSize="18" color="ff ff ff ff"/>
+    </TextSampleDescription>
+  </TextStreamHeader>
+  <TextSample sampleTime="00:00:12.020" xml:space="preserve">梅雨の真ん中|Tsuyu no man naka</TextSample>
+  <TextSample sampleTime="00:00:14.710" xml:space="preserve">今日は雨上がり|Kyou wa ameagari</TextSample>
+  <TextSample sampleTime="00:00:17.580" xml:space="preserve">生温い風|Namanurui kaze</TextSample>
+  <TextSample sampleTime="00:00:20.260" xml:space="preserve">静かな夜道を|Shizukana yomichi wo</TextSample>
+  <TextSample sampleTime="00:00:23.510" xml:space="preserve">通り抜ける　夏が近い|Toori nukeru natsu ga chikai</TextSample>
+  <TextSample sampleTime="00:00:28.370" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:32.310" xml:space="preserve">光り輝き|Hikari kagayaki</TextSample>
+  <TextSample sampleTime="00:00:34.990" xml:space="preserve">この目を奪い|Kono me wo ubai</TextSample>
+  <TextSample sampleTime="00:00:38.360" xml:space="preserve">手にしたくなる|Te ni shitaku naru</TextSample>
+  <TextSample sampleTime="00:00:40.920" xml:space="preserve">触れてみたくなる|Furete mitaku naru</TextSample>
+  <TextSample sampleTime="00:00:44.100" xml:space="preserve">あなたはこの蛍のよう|Anata wa kono hotaru no you</TextSample>
+  <TextSample sampleTime="00:00:49.210" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:53.710" xml:space="preserve">もういいかい　まだみたい|Mou ii kai mada mitai</TextSample>
+  <TextSample sampleTime="00:00:59.140" xml:space="preserve">もういいかい　その心|Mou ii kai sono kokoro</TextSample>
+  <TextSample sampleTime="00:01:03.570" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:01:06.310" xml:space="preserve">あなたの気持ちが見えない|Anata no kimochi ga mienai</TextSample>
+  <TextSample sampleTime="00:01:13.180" xml:space="preserve">望むほど苦しくなる|Nozomu hodo kurushiku naru</TextSample>
+  <TextSample sampleTime="00:01:18.230" xml:space="preserve">それでも嫌いになれない|Soredemo kirai ni narenai</TextSample>
+  <TextSample sampleTime="00:01:23.660" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:01:42.440" xml:space="preserve">ふわりふわりと|Fuwari fuwari to</TextSample>
+  <TextSample sampleTime="00:01:44.630" xml:space="preserve">宙を舞う蛍|Chuu wo mau hotaru</TextSample>
+  <TextSample sampleTime="00:01:47.870" xml:space="preserve">少し離れた場所から|Sukoshi hanareta basho kara</TextSample>
+  <TextSample sampleTime="00:01:52.180" xml:space="preserve">見るのが一番いい|Miru no ga ichiban ii</TextSample>
+  <TextSample sampleTime="00:01:56.550" xml:space="preserve">そっと　そっと|Sotto sotto</TextSample>
+  <TextSample sampleTime="00:01:58.730" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:02:02.660" xml:space="preserve">つかめない　届かない|Tsukamenai todokanai</TextSample>
+  <TextSample sampleTime="00:02:08.650" xml:space="preserve">つかめない　その心|Tsukamenai sono kokoro</TextSample>
+  <TextSample sampleTime="00:02:14.580" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:02:16.080" xml:space="preserve">‘自分だけが思っている’|‘Jibun dake ga omotte iru’</TextSample>
+  <TextSample sampleTime="00:02:23.000" xml:space="preserve">感じると泣きたくなる|Kanjiru to nakitaku naru</TextSample>
+  <TextSample sampleTime="00:02:27.810" xml:space="preserve">同じ気持ちにはなれない|Onaji kimochi ni wa narenai</TextSample>
+  <TextSample sampleTime="00:02:34.050" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:03:06.810" xml:space="preserve">もういいかい　まだみたい|Mou ii kai mada mitai</TextSample>
+  <TextSample sampleTime="00:03:12.610" xml:space="preserve">もういいかい　その心|Mou ii kai sono kokoro</TextSample>
+  <TextSample sampleTime="00:03:17.670" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:03:21.280" xml:space="preserve">あなたの気持ちが見えない|Anata no kimochi ga mienai</TextSample>
+  <TextSample sampleTime="00:03:28.210" xml:space="preserve">望むほど苦しくなる|Nozomu hodo kurushiku naru</TextSample>
+  <TextSample sampleTime="00:03:32.950" xml:space="preserve">それでも嫌いになれない|Soredemo kirai ni narenai</TextSample>
+  <TextSample sampleTime="00:03:39.190" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:03:44.930" xml:space="preserve">‘自分だけが思っている’|‘Jibun dake ga omotte iru’</TextSample>
+  <TextSample sampleTime="00:03:51.860" xml:space="preserve">感じると泣きたくなる|Kanjiru to nakitaku naru</TextSample>
+  <TextSample sampleTime="00:03:57.410" xml:space="preserve">あなたの気持ちが知りたい|Anata no kimochi ga shiritai</TextSample>
+  <TextSample sampleTime="00:04:02.970" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:04:08.710" xml:space="preserve">あなたの気持ちが見えない|Anata no kimochi ga mienai</TextSample>
+  <TextSample sampleTime="00:04:15.260" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:04:20.570" xml:space="preserve">それでも嫌いになれない|Soredemo kirai ni narenai</TextSample>
+  <TextSample sampleTime="00:04:28.370" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:04:41.960" xml:space="preserve">|Natsu ga chikai</TextSample>
+  <TextSample sampleTime="00:04:43.960" xml:space="preserve"></TextSample>
+</TextStream>

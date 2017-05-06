@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextStream version="1.1">
+  <TextStreamHeader width="400" height="60" layer="0" translation_x="0" translation_y="0">
+    <TextSampleDescription horizontalJustification="center" verticalJustification="bottom" backColor="0 0 0 0" verticalText="no" fillTextRegion="no" continuousKaraoke="no" scroll="None">
+      <FontTable>
+        <FontTableEntry fontName="Sans" fontID="1"/>
+      </FontTable>
+      <TextBox top="0" left="0" bottom="60" right="400"/>
+      <Style styles="Normal" fontID="1" fontSize="18" color="ff ff ff ff"/>
+    </TextSampleDescription>
+  </TextStreamHeader>
+  <TextSample sampleTime="00:00:00.000" xml:space="preserve"> |薛之谦 - 刚刚好</TextSample>
+  <TextSample sampleTime="00:00:04.000" xml:space="preserve"> |词曲：薛之谦</TextSample>
+  <TextSample sampleTime="00:00:12.000" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:37.670" xml:space="preserve"> |如果有人在灯塔</TextSample>
+  <TextSample sampleTime="00:00:40.010" xml:space="preserve"> |拨弄她的头发</TextSample>
+  <TextSample sampleTime="00:00:42.090" xml:space="preserve"> |思念刻在墙和瓦</TextSample>
+  <TextSample sampleTime="00:00:46.290" xml:space="preserve"> |如果感情会挣扎</TextSample>
+  <TextSample sampleTime="00:00:48.750" xml:space="preserve"> |没有说的儒雅</TextSample>
+  <TextSample sampleTime="00:00:50.950" xml:space="preserve"> |把挽回的手放下</TextSample>
+  <TextSample sampleTime="00:00:54.700" xml:space="preserve"> |镜子里的人说假话</TextSample>
+  <TextSample sampleTime="00:00:58.650" xml:space="preserve"> |违心的样子你决定了吗</TextSample>
+  <TextSample sampleTime="00:01:03.790" xml:space="preserve">| 装聋或者作哑 要不我先说话</TextSample>
+  <TextSample sampleTime="00:01:15.980" xml:space="preserve">| 我们的爱情 到这刚刚好</TextSample>
+  <TextSample sampleTime="00:01:20.060" xml:space="preserve">| 剩不多也不少 还能忘掉</TextSample>
+  <TextSample sampleTime="00:01:25.310" xml:space="preserve">| 我应该可以 把自己照顾好</TextSample>
+  <TextSample sampleTime="00:01:33.360" xml:space="preserve">| 我们的距离 到这刚刚好</TextSample>
+  <TextSample sampleTime="00:01:37.290" xml:space="preserve"> |不够我们拥抱 就挽回不了</TextSample>
+  <TextSample sampleTime="00:01:42.550" xml:space="preserve"> |用力爱过的人 不该计较</TextSample>
+  <TextSample sampleTime="00:01:59.120" xml:space="preserve"> |是否要逼人弃了甲</TextSample>
+  <TextSample sampleTime="00:02:01.560" xml:space="preserve"> |亮出一条伤疤</TextSample>
+  <TextSample sampleTime="00:02:03.630" xml:space="preserve"> |不堪的根源在哪</TextSample>
+  <TextSample sampleTime="00:02:07.600" xml:space="preserve"> |可是感情会挣扎</TextSample>
+  <TextSample sampleTime="00:02:09.960" xml:space="preserve"> |没有别的办法</TextSample>
+  <TextSample sampleTime="00:02:12.280" xml:space="preserve"> |它劝你不如退下</TextSample>
+  <TextSample sampleTime="00:02:16.040" xml:space="preserve"> |如果分手太复杂</TextSample>
+  <TextSample sampleTime="00:02:19.560" xml:space="preserve"> |流浪的歌手会放下吉他</TextSample>
+  <TextSample sampleTime="00:02:24.510" xml:space="preserve"> |故事要美必须藏着真话</TextSample>
+  <TextSample sampleTime="00:02:32.570" xml:space="preserve"> |我们的爱情 到这刚刚好</TextSample>
+  <TextSample sampleTime="00:02:36.290" xml:space="preserve"> |剩不多也不少 还能忘掉</TextSample>
+  <TextSample sampleTime="00:02:41.630" xml:space="preserve"> |我应该可以 把自己照顾好</TextSample>
+  <TextSample sampleTime="00:02:49.350" xml:space="preserve"> |我们的距离 到这刚刚好</TextSample>
+  <TextSample sampleTime="00:02:53.120" xml:space="preserve">| 不够我们拥抱 就挽回不了</TextSample>
+  <TextSample sampleTime="00:02:58.410" xml:space="preserve">| 用力爱过的人 不该计较</TextSample>
+  <TextSample sampleTime="00:03:06.280" xml:space="preserve">| 我们的爱情到这刚刚好</TextSample>
+  <TextSample sampleTime="00:03:10.030" xml:space="preserve">| 再不争也不吵 不必再煎熬</TextSample>
+  <TextSample sampleTime="00:03:15.240" xml:space="preserve">| 你可以不用 记得我的好</TextSample>
+  <TextSample sampleTime="00:03:22.930" xml:space="preserve">| 我们的流浪到这刚刚好</TextSample>
+  <TextSample sampleTime="00:03:26.850" xml:space="preserve">| 趁我们还没到 天涯海角</TextSample>
+  <TextSample sampleTime="00:03:31.760" xml:space="preserve">| 我也不是非要去那座城堡</TextSample>
+  <TextSample sampleTime="00:03:39.740" xml:space="preserve">| 天空有些暗了暗的刚刚好</TextSample>
+  <TextSample sampleTime="00:03:43.730" xml:space="preserve">| 我难过的样子就没人看到</TextSample>
+  <TextSample sampleTime="00:03:48.840" xml:space="preserve">| 你别太在意我身上的记号</TextSample>
+  <TextSample sampleTime="00:03:50.840" xml:space="preserve"></TextSample>
+</TextStream>

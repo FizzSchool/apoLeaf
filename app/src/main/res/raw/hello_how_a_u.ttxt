@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextStream version="1.1">
+  <TextStreamHeader width="400" height="60" layer="0" translation_x="0" translation_y="0">
+    <TextSampleDescription horizontalJustification="center" verticalJustification="bottom" backColor="0 0 0 0" verticalText="no" fillTextRegion="no" continuousKaraoke="no" scroll="None">
+      <FontTable>
+        <FontTableEntry fontName="Sans" fontID="1"/>
+      </FontTable>
+      <TextBox top="0" left="0" bottom="60" right="400"/>
+      <Style styles="Normal" fontID="1" fontSize="18" color="ff ff ff ff"/>
+    </TextSampleDescription>
+  </TextStreamHeader>
+  <TextSample sampleTime="00:00:00.000" xml:space="preserve">ハロ／ハワユ | hello / how are you</TextSample>
+  <TextSample sampleTime="00:00:06.000" xml:space="preserve">作詞：ナノウ</TextSample>
+  <TextSample sampleTime="00:00:08.000" xml:space="preserve">作曲：ナノウ</TextSample>
+  <TextSample sampleTime="00:00:10.100" xml:space="preserve">編曲：ナノウ</TextSample>
+  <TextSample sampleTime="00:00:12.190" xml:space="preserve">ハロ| haro</TextSample>
+  <TextSample sampleTime="00:00:13.690" xml:space="preserve">窓を開けて　小さく呟いた| mado o akete chiisaku tsubuyaita</TextSample>
+  <TextSample sampleTime="00:00:17.440" xml:space="preserve">ハワユ| hawayu?</TextSample>
+  <TextSample sampleTime="00:00:18.690" xml:space="preserve">誰もいない　部屋で一人|  dare mo inai heya de hitori</TextSample>
+  <TextSample sampleTime="00:00:22.490" xml:space="preserve">モーニン|  morning</TextSample>
+  <TextSample sampleTime="00:00:23.690" xml:space="preserve">朝が来たよ　土砂降りの朝が| asa ga kita yo doshaburi no asa ga</TextSample>
+  <TextSample sampleTime="00:00:27.500" xml:space="preserve">ティクタク| tick-tock</TextSample>
+  <TextSample sampleTime="00:00:28.750" xml:space="preserve">私のネジを　誰か巻いて | watashi no neji o dare ka maite</TextSample>
+  <TextSample sampleTime="00:00:35.610" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:00:54.850" xml:space="preserve">ハロ| haro!</TextSample>
+  <TextSample sampleTime="00:00:56.110" xml:space="preserve">昔のアニメにそんなのいたっけな|  mukashi no anime ni sonna no itakke na</TextSample>
+  <TextSample sampleTime="00:00:59.850" xml:space="preserve">ハワユ|  how are you</TextSample>
+  <TextSample sampleTime="00:01:01.100" xml:space="preserve">羨ましいな　皆に愛されて|  urayamashii na minna ni aisarete</TextSample>
+  <TextSample sampleTime="00:01:04.780" xml:space="preserve">スリーピン|  sleeping</TextSample>
+  <TextSample sampleTime="00:01:06.210" xml:space="preserve">馬鹿な事言ってないで支度をしなくちゃ|  baka na koto itte naide shitaku o shinakucha</TextSample>
+  <TextSample sampleTime="00:01:09.890" xml:space="preserve">クライン | crying</TextSample>
+  <TextSample sampleTime="00:01:11.260" xml:space="preserve">涙の跡を隠す為|  namida no ato o kakusu tame</TextSample>
+  <TextSample sampleTime="00:01:14.770" xml:space="preserve">もう口癖になった「まぁいっか」|  mou kuchiguse ni natta "maa-ikka"</TextSample>
+  <TextSample sampleTime="00:01:17.880" xml:space="preserve">昨日の言葉がふと頭を過る|  kinou no kotoba ga futo atama o yogiru</TextSample>
+  <TextSample sampleTime="00:01:20.820" xml:space="preserve">「もう君には全然期待してないから」|  "mou kimi ni wa zenzen kitai shite'nai kara"</TextSample>
+  <TextSample sampleTime="00:01:26.180" xml:space="preserve">そりゃまぁ私だって|  sorya maa watashi datte</TextSample>
+  <TextSample sampleTime="00:01:28.240" xml:space="preserve">自分に期待などしてないけれど|  	jibun ni kitai nado shite'nai keredo</TextSample>
+  <TextSample sampleTime="00:01:31.230" xml:space="preserve">アレは一体どういうつもりですか | are wa ittai dou iu tsumori desu ka</TextSample>
+  <TextSample sampleTime="00:01:35.850" xml:space="preserve">元まで出かかった言葉| nodomoto made dekakatta kotoba</TextSample>
+  <TextSample sampleTime="00:01:40.900" xml:space="preserve">口をついて出たのは嘘 | kuchi o tsuite deta no wa uso</TextSample>
+  <TextSample sampleTime="00:01:45.400" xml:space="preserve">こうして今日も私は貴重な|  kou shite kyou mo watashi wa kichou na</TextSample>
+  <TextSample sampleTime="00:01:50.820" xml:space="preserve">言葉を浪費して生きてゆく| kotoba o rouhi shite ikite yuku</TextSample>
+  <TextSample sampleTime="00:01:55.500" xml:space="preserve">何故隠してしまうのですか| naze kakushite shimau no desu ka</TextSample>
+  <TextSample sampleTime="00:01:58.250" xml:space="preserve">笑われるのが怖いのですか | warawareru no ga kowai no desu ka</TextSample>
+  <TextSample sampleTime="00:02:00.680" xml:space="preserve">誰にも会いたくないのですか| dare ni mo aitakunai no desu ka</TextSample>
+  <TextSample sampleTime="00:02:03.430" xml:space="preserve">それ本当ですか|  sore hontou desu ka</TextSample>
+  <TextSample sampleTime="00:02:05.550" xml:space="preserve">曖昧という名の海に溺れて|  aimai to iu na no umi ni oborete</TextSample>
+  <TextSample sampleTime="00:02:08.540" xml:space="preserve">息も出来ないほど苦しいの | iki mo dekinai hodo kurushii no</TextSample>
+  <TextSample sampleTime="00:02:10.980" xml:space="preserve">少し声が聞きたくなりました| 	sukoshi koe ga kikitaku narimashita</TextSample>
+  <TextSample sampleTime="00:02:13.580" xml:space="preserve">本当に弱いな| hontou ni yowai na</TextSample>
+  <TextSample sampleTime="00:02:17.500" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:02:21.620" xml:space="preserve">朦朧とした頭で思う |	mourou to shita atama de omou</TextSample>
+  <TextSample sampleTime="00:02:23.990" xml:space="preserve">「もう理由を付けて休んでしまおうかな」| "mou riyuu o tsukete yasunde shimaou ka na"</TextSample>
+  <TextSample sampleTime="00:02:31.850" xml:space="preserve">いやいや分かってますって | iya iya wakatte'masutte</TextSample>
+  <TextSample sampleTime="00:02:34.030" xml:space="preserve">何となく言ってみただけだよ | nantonaku itte mita dake da yo</TextSample>
+  <TextSample sampleTime="00:02:36.960" xml:space="preserve">分かってるから怒らないでよ | 	wakatte'ru kara okoranaide yo</TextSample>
+  <TextSample sampleTime="00:02:41.520" xml:space="preserve">幸せだろうと　不幸せだろうと | shiawase darou to fushiawase darou to</TextSample>
+  <TextSample sampleTime="00:02:46.630" xml:space="preserve">平等に　残酷に　朝日は昇る | byoudou ni zankoku ni asahi wa noboru</TextSample>
+  <TextSample sampleTime="00:02:51.130" xml:space="preserve">生きていくだけで精一杯の私に | ikite'ku dake de seiippai no watashi ni</TextSample>
+  <TextSample sampleTime="00:02:56.500" xml:space="preserve">これ以上何を望むというの | kore ijou nani o nozomu to iu no</TextSample>
+  <TextSample sampleTime="00:03:01.110" xml:space="preserve">何故気にしてしまうのですか|  naze ki ni shite shimau no desu ka</TextSample>
+  <TextSample sampleTime="00:03:04.040" xml:space="preserve">本当は愛されたいのですか | hontou wa aisaretai no desu ka</TextSample>
+  <TextSample sampleTime="00:03:06.480" xml:space="preserve">その手を離したのは誰ですか | sono te o hanashita no wa dare desu ka</TextSample>
+  <TextSample sampleTime="00:03:09.100" xml:space="preserve">気が付いてますか |ki ga tsuite'masu ka</TextSample>
+  <TextSample sampleTime="00:03:11.350" xml:space="preserve">人生にタイムカードがあるなら | jinsei ni taimu kaado ga aru nara</TextSample>
+  <TextSample sampleTime="00:03:14.160" xml:space="preserve">終わりの時間は何時なんだろう | 	owari no jikan wa itsu nan darou</TextSample>
+  <TextSample sampleTime="00:03:16.650" xml:space="preserve">私が生きた分の給料は | watashi ga ikita bun no kyuuryou wa</TextSample>
+  <TextSample sampleTime="00:03:19.210" xml:space="preserve">誰が払うんですか | dare ga haraun desu ka</TextSample>
+  <TextSample sampleTime="00:03:23.260" xml:space="preserve"></TextSample>
+  <TextSample sampleTime="00:03:31.560" xml:space="preserve">サンキュー | thank you</TextSample>
+  <TextSample sampleTime="00:03:32.880" xml:space="preserve">ありがとうって言いたいの|  arigatoutte iitai no</TextSample>
+  <TextSample sampleTime="00:03:36.540" xml:space="preserve">サンキュー | thank you</TextSample>
+  <TextSample sampleTime="00:03:37.730" xml:space="preserve">ありがとうって言いたいよ | arigatoutte iitai yo</TextSample>
+  <TextSample sampleTime="00:03:41.540" xml:space="preserve">サンキュー|  thank you</TextSample>
+  <TextSample sampleTime="00:03:42.760" xml:space="preserve">一度だけでも良いから  |	ichido dake de mo ii kara</TextSample>
+  <TextSample sampleTime="00:03:47.200" xml:space="preserve">心の底から大泣きしながら | kokoro no soko kara oonaki shinagara</TextSample>
+  <TextSample sampleTime="00:03:49.820" xml:space="preserve">ありがとうって言いたいの| arigatoutte iitai no</TextSample>
+  <TextSample sampleTime="00:03:54.480" xml:space="preserve">何故隠してしまうのですか | naze kakushite shimau no desu ka</TextSample>
+  <TextSample sampleTime="00:03:57.030" xml:space="preserve">本当は聞いて欲しいのですか | hontou wa kiite hoshii no desu ka</TextSample>
+  <TextSample sampleTime="00:03:59.470" xml:space="preserve">絶対に笑ったりしないから | zettai ni warattari shinai kara</TextSample>
+  <TextSample sampleTime="00:04:02.160" xml:space="preserve">話してみませんか  hanashite mimasen ka</TextSample>
+  <TextSample sampleTime="00:04:04.530" xml:space="preserve">口を開かなければ分からない | kuchi o hirakanakereba wakaranai</TextSample>
+  <TextSample sampleTime="00:04:07.260" xml:space="preserve">思ってるだけでは伝わらない | omotte'ru dake de wa tsutawaranai</TextSample>
+  <TextSample sampleTime="00:04:09.750" xml:space="preserve">なんて面倒くさい生き物でしょう　人間というのは | nante mendokusai ikimono deshou ningen to iu no wa</TextSample>
+  <TextSample sampleTime="00:04:17.400" xml:space="preserve">ハロ　ハワユ |  hello, how are you</TextSample>
+  <TextSample sampleTime="00:04:27.650" xml:space="preserve">ハロ　ハワユ | hello, how are you</TextSample>
+  <TextSample sampleTime="00:04:30.080" xml:space="preserve">あなたに　ハロ　ハワユ | anata ni hello, how are you</TextSample>
+  <TextSample sampleTime="00:04:40.000" xml:space="preserve"></TextSample>
+</TextStream>

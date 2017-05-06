@@ -6,9 +6,17 @@ package com.example.fizzbuzz.leafapo.com.helper;
 
 public class Check {
     public static boolean checkQuery(String query, int bound){
-        if ( Integer.parseInt(query)  <= Integer.parseInt(query) && Integer.parseInt(query) > 1){
+        if ( Integer.parseInt(query)  <= bound && Integer.parseInt(query) > 1){
             return true;
         } else
             return false;
+    }
+
+    public static String normalize(String s){
+        //s.replace((char) 12288, "");
+        //s.re
+        s = s.replaceAll((char) 12288+ "", "");
+        s = s.replaceAll( "\\s", "");
+        return s;
     }
 }

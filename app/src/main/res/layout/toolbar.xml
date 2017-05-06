@@ -6,11 +6,12 @@
 
     android:id="@+id/search_edit_frame"
     android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:background="?attr/colorPrimary"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/background_elevation"
     android:clipToPadding="false"
-    android:elevation="8dp"
-    android:paddingBottom="5dp"
     android:paddingTop="0dp"
     android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
 

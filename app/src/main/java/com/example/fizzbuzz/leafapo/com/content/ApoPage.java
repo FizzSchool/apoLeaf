@@ -7,6 +7,7 @@ import android.widget.ImageView;
 
 import com.example.fizzbuzz.leafapo.MainActivity;
 import com.example.fizzbuzz.leafapo.R;
+import com.example.fizzbuzz.leafapo.com.helper.Lyric;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -28,9 +29,17 @@ public class ApoPage {
 
     private String textColor;
 
+    private String pageNoteLayoutColor;
+
+    private String pageNoteTextColor;
+
     private String musicName;
 
     private String note;
+
+    private ArrayList<Lyric> lyrics;
+
+
 
     public ApoPage( ArrayList<String> apoContents, String musicName, String note, int imageID, String textColor, String backgroundText, String backgroundImage) {
         int value = getImgId("me"+ imageID);
@@ -43,6 +52,29 @@ public class ApoPage {
         this.setApoContents(apoContents);
         this.setNote(note);
         this.setMusicName(musicName);
+    }
+
+    public ApoPage( ArrayList<String> apoContents, String musicName, String note, int imageID, String textColor, String backgroundText, String backgroundImage, String backgroundLayout) {
+        int value = getImgId("me"+ imageID);
+        int mValue = getMusicid("music"+ imageID);
+        this.setMediaPlayer(mValue);
+        this.setImage(value);
+        this.setBackgroundText(backgroundText);
+        this.setTextColor(textColor);
+        this.setBackgroundImage(backgroundImage);
+        this.setApoContents(apoContents);
+        this.setNote(note);
+        this.setMusicName(musicName);
+        this.setPageNoteLayoutColor(backgroundLayout);
+    }
+
+    public ArrayList<Lyric> getLyrics() {
+        return lyrics;
+    }
+
+    public ApoPage setLyrics(ArrayList<Lyric> lyrics) {
+        this.lyrics = lyrics;
+        return this;
     }
 
     public int getImgId(String rs){
@@ -129,5 +161,21 @@ public class ApoPage {
 
     public void setNote(String note) {
         this.note = note;
+    }
+
+    public String getPageNoteLayoutColor() {
+        return pageNoteLayoutColor;
+    }
+
+    public void setPageNoteLayoutColor(String pageNoteLayoutColor) {
+        this.pageNoteLayoutColor = pageNoteLayoutColor;
+    }
+
+    public String getPageNoteTextColor() {
+        return pageNoteTextColor;
+    }
+
+    public void setPageNoteTextColor(String pageNoteTextColor) {
+        this.pageNoteTextColor = pageNoteTextColor;
     }
 }
